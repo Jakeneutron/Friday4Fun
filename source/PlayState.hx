@@ -173,6 +173,10 @@ class PlayState extends MusicBeatState
 	var dialogue:Array<String> = ['blah blah blah', 'coolswag'];
 	var dialogueJson:DialogueFile = null;
 
+	// Fade Variables
+	var blackBG:FlxSprite;
+	var blackFG:FlxSprite;
+
 	var halloweenBG:BGSprite;
 	var halloweenWhite:BGSprite;
 
@@ -203,6 +207,9 @@ class PlayState extends MusicBeatState
 	var bgGirls:BackgroundGirls;
 	var wiggleShit:WiggleEffect = new WiggleEffect();
 	var bgGhouls:BGSprite;
+
+	var bgGlazey:BGSprite;
+	var bgSega:BGSprite;
 
 	public var songScore:Int = 0;
 	public var songHits:Int = 0;
@@ -356,6 +363,30 @@ class PlayState extends MusicBeatState
 					stageCurtains.updateHitbox();
 					add(stageCurtains);
 				}
+
+				case 'bestbuy': //Store 1
+				var bg:BGSprite = new BGSprite('Best Buy/BG_Full', -900, -500, 0.6, 0.6);
+				add(bg);
+
+				var theFloor:BGSprite = new BGSprite('Best Buy/BG_Floor', -550, -220, 0.9, 0.9);
+				theFloor.setGraphicSize(Std.int(theFloor.width * 1.1));
+				theFloor.updateHitbox();
+				add(theFloor);
+
+				bgSega = new BGSprite('Best Buy/SEGA_BG', 600, 250, 0.8, 0.8, ['Sega_BG_Flat']);
+				//bgSega.animation.addByPrefix('hey', 'Bottom Level Boppers HEY', 24, false);
+				bgSega.setGraphicSize(Std.int(bgSega.width * 1));
+				bgSega.updateHitbox();
+				add(bgSega);
+
+				bgGlazey = new BGSprite('Best Buy/Glazey_BG', 350, 200, 0.85, 0.85, ['Glazey_BG_Flat']);
+				//bgGlazey.animation.addByPrefix('hey', 'Bottom Level Boppers HEY', 24, false);
+				bgGlazey.setGraphicSize(Std.int(bgGlazey.width * 1));
+				bgGlazey.updateHitbox();
+				add(bgGlazey);
+
+				
+
 
 			case 'spooky': //Week 2
 				if(!ClientPrefs.lowQuality) {
@@ -603,6 +634,15 @@ class PlayState extends MusicBeatState
 				}
 		}
 
+
+		// Black BG
+		blackBG = new FlxSprite().makeGraphic(Std.int(FlxG.width * 2), Std.int(FlxG.height * 2), FlxColor.BLACK);
+		blackBG.x -= 200;
+		blackBG.y -= 200;
+		add(blackBG);
+		blackBG.alpha = 0;
+		blackBG.scrollFactor.set();
+
 		#if LUA_ALLOWED
 		luaDebugGroup = new FlxTypedGroup<DebugLuaText>();
 		luaDebugGroup.cameras = [camOther];
@@ -689,6 +729,9 @@ class PlayState extends MusicBeatState
 		boyfriend.y += boyfriend.positionArray[1];
 		boyfriendGroup.add(boyfriend);
 		
+		
+
+
 		var camPos:FlxPoint = new FlxPoint(gf.getGraphicMidpoint().x, gf.getGraphicMidpoint().y);
 		camPos.x += gf.cameraPosition[0];
 		camPos.y += gf.cameraPosition[1];
@@ -713,6 +756,8 @@ class PlayState extends MusicBeatState
 			case 'schoolEvil':
 				var evilTrail = new FlxTrail(dad, null, 4, 24, 0.3, 0.069);
 				add(evilTrail);
+			case 'bestbuy':
+				gf.alpha = 0;
 		}
 
 		add(gfGroup);
@@ -729,6 +774,14 @@ class PlayState extends MusicBeatState
 		if(curStage == 'spooky') {
 			add(halloweenWhite);
 		}
+
+		// Black Foreground
+		blackFG = new FlxSprite().makeGraphic(Std.int(FlxG.width * 2), Std.int(FlxG.height * 2), FlxColor.BLACK);
+		blackFG.x -= 200;
+		blackFG.y -= 200;
+		add(blackFG);
+		blackFG.alpha = 0;
+		blackFG.scrollFactor.set();
 
 		var file:String = Paths.json(songName + '/dialogue'); //Checks for json/Psych Engine dialogue
 		if (OpenFlAssets.exists(file)) {
@@ -983,6 +1036,9 @@ class PlayState extends MusicBeatState
 				case 'senpai' | 'roses' | 'thorns':
 					if(daSong == 'roses') FlxG.sound.play(Paths.sound('ANGRY'));
 					schoolIntro(doof);
+
+				case "out-of-stock":
+					startDialogue(dialogueJson);
 
 				default:
 					startCountdown();
@@ -2741,6 +2797,30 @@ class PlayState extends MusicBeatState
 			
 			case 'BG Freaks Expression':
 				if(bgGirls != null) bgGirls.swapDanceType();
+			case 'Black BG Toggle':
+				var toggle:String = value1;
+				var time:Float = Std.parseFloat(value2);
+				if (toggle == "on")
+					{
+						FlxTween.tween(blackBG, {alpha : 1}, time, {type: FlxTweenType.ONESHOT, ease: FlxEase.quadInOut});
+					} else
+				if (toggle == "off")
+					{
+						FlxTween.tween(blackBG, {alpha : 0}, time, {type: FlxTweenType.ONESHOT, ease: FlxEase.quadInOut});
+					}
+
+			case 'Black FG Toggle':
+				var toggle:String = value1;
+				var time:Float = Std.parseFloat(value2);
+				if (toggle == "on")
+					{
+						FlxTween.tween(blackFG, {alpha : 1}, time, {type: FlxTweenType.ONESHOT, ease: FlxEase.quadInOut});
+					} else
+				if (toggle == "off")
+					{
+						FlxTween.tween(blackFG, {alpha : 0}, time, {type: FlxTweenType.ONESHOT, ease: FlxEase.quadInOut});
+					}
+
 		}
 		callOnLuas('onEvent', [eventName, value1, value2]);
 	}
@@ -3756,6 +3836,12 @@ class PlayState extends MusicBeatState
 				if(!ClientPrefs.lowQuality) {
 					bgGirls.dance();
 				}
+
+				case 'bestbuy':
+					if(!ClientPrefs.lowQuality) {
+						bgGlazey.dance();
+						bgSega.dance();
+					}
 
 			case 'mall':
 				if(!ClientPrefs.lowQuality) {

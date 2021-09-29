@@ -1,0 +1,155 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				14,
+				32
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Jake_Idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				53,
+				21
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Jake_Left ",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				9,
+				56
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Jake_Up ",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				100,
+				-50
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Jake_Down ",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-38,
+				3
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Jake_Right ",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				63,
+				13
+			],
+			"anim": "singLEFT-alt",
+			"fps": 24,
+			"name": "Jake_Left_Alt",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				17,
+				50
+			],
+			"anim": "singUP-alt",
+			"fps": 24,
+			"name": "Jake_Up_Alt",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				90,
+				-50
+			],
+			"anim": "singDOWN-alt",
+			"fps": 24,
+			"name": "Jake_Down_Alt",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-59,
+				10
+			],
+			"anim": "singRIGHT-alt",
+			"fps": 24,
+			"name": "Jake_Right_Alt",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-54,
+				3
+			],
+			"anim": "ugh",
+			"fps": 24,
+			"name": "Jake_Ugh",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				15,
+				40
+			],
+			"anim": "animation",
+			"fps": 24,
+			"name": "Jake_Animation",
+			"indices": []
+		},
+		{
+			"offsets": [
+				50,
+				53
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "death",
+			"loop": false,
+			"name": "Jake_Death "
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/JakePS5_V2",
+	"position": [
+		0,
+		200
+	],
+	"healthicon": "jake",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		216,
+		85
+	],
+	"camera_position": [
+		-140,
+		20
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

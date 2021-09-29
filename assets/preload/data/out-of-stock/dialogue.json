@@ -1,0 +1,277 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.05,
+			"portrait": "jake",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Alright!"
+		},
+		{
+			"speed": 0.035,
+			"portrait": "jake",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "We've exhausted just about every option for the past..."
+		},
+		{
+			"speed": 0.08,
+			"portrait": "jake",
+			"boxState": "normal",
+			"expression": "destroyed1",
+			"text": "several months..."
+		},
+		{
+			"speed": 0.04,
+			"portrait": "jake",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "But according to sources this Best Buy should have AT LEAST a few PS5s in stock!"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "glazey",
+			"boxState": "normal",
+			"expression": "sus",
+			"text": "There better be."
+		},
+		{
+			"speed": 0.04,
+			"portrait": "glazey",
+			"boxState": "normal",
+			"expression": "think",
+			"text": "We've been in this line for two hours."
+		},
+		{
+			"speed": 0.045,
+			"portrait": "sega",
+			"boxState": "normal",
+			"expression": "sus",
+			"text": "That was ONLY two hours!?!?"
+		},
+		{
+			"speed": 0.055,
+			"portrait": "sega",
+			"boxState": "normal",
+			"expression": "think",
+			"text": "You better be glad we love you, Jake."
+		},
+		{
+			"speed": 0.085,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "tsk... amateurs..."
+		},
+		{
+			"speed": 0.04,
+			"portrait": "jake",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "On the bright side! Hopefully all of that waiting will pay off!"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "jake",
+			"boxState": "normal",
+			"expression": "sweat",
+			"text": "I'll be able to stop avoiding spoilers for Ratchet and Clank..."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "glazey",
+			"boxState": "normal",
+			"expression": "think",
+			"text": "Are you sure?? There were..."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "glazey",
+			"boxState": "normal",
+			"expression": "sweat",
+			"text": "ALOOOOOOT of people in front of us..."
+		},
+		{
+			"speed": 0.035,
+			"portrait": "glazey",
+			"boxState": "normal",
+			"expression": "think",
+			"text": "You gonna be okay if they end up being sold out, again?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "jake",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "I'm not too worried!"
+		},
+		{
+			"speed": 0.03,
+			"portrait": "jake",
+			"boxState": "normal",
+			"expression": "think",
+			"text": "If there were too many people, wouldn't they have told a threshold of us to have gone home by now??"
+		},
+		{
+			"speed": 0.025,
+			"portrait": "glazey",
+			"boxState": "normal",
+			"expression": "sweat",
+			"text": "Jake, I really don't think--"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "sega",
+			"boxState": "normal",
+			"expression": "think",
+			"text": "Now wait a moment, Glazey!"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "sega",
+			"boxState": "normal",
+			"expression": "sweat",
+			"text": "You never know! A miracle might happen!"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "sega",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Birthday Magic, if you will~!"
+		},
+		{
+			"speed": 0.02,
+			"portrait": "glazey",
+			"boxState": "normal",
+			"expression": "sweat",
+			"text": "Birthday magi-"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "glazey",
+			"boxState": "normal",
+			"expression": "sus",
+			"text": "Okay, Pinkie Pie."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf-bb",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Hello! Welcome to Best Buy! Is there anything I can help you with?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "jake",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Yes! I was wondering if you had anymore PS5-"
+		},
+		{
+			"speed": 0.03,
+			"portrait": "bf-bb",
+			"boxState": "normal",
+			"expression": "sweat",
+			"text": "Oh sir, sorry, we're out of  PS5s at this time..."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "jake",
+			"boxState": "normal",
+			"expression": "destroyed1",
+			"text": "         h"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "jake",
+			"boxState": "angry",
+			"expression": "destroyed2",
+			"text": "      h                 hehj"
+		},
+		{
+			"speed": 0.12,
+			"portrait": "jake",
+			"boxState": "normal",
+			"expression": "sus",
+			"text": "I see."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "glazey",
+			"boxState": "normal",
+			"expression": "think",
+			"text": "Jake?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "sega",
+			"boxState": "normal",
+			"expression": "think",
+			"text": "Jake?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf-bb",
+			"boxState": "normal",
+			"expression": "think",
+			"text": "Sir?"
+		},
+		{
+			"speed": 0.195,
+			"portrait": "jake",
+			"boxState": "normal",
+			"expression": "sus",
+			"text": "..."
+		},
+		{
+			"speed": 0.075,
+			"portrait": "jake",
+			"boxState": "normal",
+			"expression": "susmic",
+			"text": "ha... h ha..."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf-bb",
+			"boxState": "normal",
+			"expression": "sus",
+			"text": "Sir???"
+		},
+		{
+			"speed": 0.035,
+			"portrait": "glazey",
+			"boxState": "normal",
+			"expression": "sweat",
+			"text": "Jake?!?!?"
+		},
+		{
+			"speed": 0.065,
+			"portrait": "sega",
+			"boxState": "normal",
+			"expression": "think",
+			"text": "Oh my god, nigga finna spit"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "glazey",
+			"boxState": "angry",
+			"expression": "sweat",
+			"text": "sEGA?!!?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "sega",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Glazey<3"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "glazey",
+			"boxState": "normal",
+			"expression": "sus",
+			"text": "I really can't take you bitches anywhere..."
+		}
+	]
+}

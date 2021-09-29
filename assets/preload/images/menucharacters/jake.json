@@ -1,0 +1,10 @@
+{
+	"confirm_anim": "M Dad Idle",
+	"idle_anim": "Jake_Idle instance ",
+	"position": [
+		130,
+		82
+	],
+	"scale": 0.7,
+	"image": "Menu_Jake"
+}

@@ -1,0 +1,102 @@
+{
+	"position": [
+		100,
+		40
+	],
+	"dialogue_pos": "left",
+	"scale": 1.3,
+	"image": "Jake_Dialogue",
+	"animations": [
+		{
+			"idle_offsets": [
+				-1,
+				-5
+			],
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "talk",
+			"idle_name": "J_Normal ",
+			"loop_name": "J_Normal_Talk "
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "sweat",
+			"idle_offsets": [
+				0,
+				-3
+			],
+			"loop_name": "J_Sweat_Talk",
+			"idle_name": "J_Sweat "
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "think",
+			"idle_offsets": [
+				0,
+				-3
+			],
+			"loop_name": "J_Think_Talk",
+			"idle_name": "J_Think "
+		},
+		{
+			"loop_offsets": [
+				2,
+				-35
+			],
+			"anim": "destroyed1",
+			"idle_offsets": [
+				0,
+				-40
+			],
+			"loop_name": "J_Destroyed1_Talk",
+			"idle_name": "J_Destroyed1 "
+		},
+		{
+			"loop_offsets": [
+				4,
+				-41
+			],
+			"anim": "destroyed2",
+			"idle_offsets": [
+				0,
+				-50
+			],
+			"loop_name": "J_Destroyed2_Talk",
+			"idle_name": "J_Destroyed2 "
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "sus",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "J_Sus_Talk",
+			"idle_name": "J_Sus "
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "susmic",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "J_SusMic_Talk",
+			"idle_name": "J_SusMic "
+		}
+	]
+}

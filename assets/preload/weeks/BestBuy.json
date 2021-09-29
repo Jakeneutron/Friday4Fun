@@ -1,0 +1,30 @@
+{
+	"storyName": "PS5 Restock",
+	"hideFreeplay": false,
+	"weekBackground": "bestbuy",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"songs": [
+		[
+			"Out Of Stock",
+			"jake",
+			[
+				0,
+				93,
+				255
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekCharacters": [
+		"jake",
+		"bf-bb",
+		""
+	],
+	"weekName": "PS5 Restock"
+}

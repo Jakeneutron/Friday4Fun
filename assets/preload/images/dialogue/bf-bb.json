@@ -1,0 +1,63 @@
+{
+	"position": [
+		100,
+		100
+	],
+	"dialogue_pos": "right",
+	"scale": 1.3,
+	"image": "BFbb_Dialogue",
+	"animations": [
+		{
+			"idle_offsets": [
+				-1,
+				-5
+			],
+			"loop_offsets": [
+				1,
+				10
+			],
+			"anim": "talk",
+			"idle_name": "J_Normal ",
+			"loop_name": "J_Normal_Talk "
+		},
+		{
+			"loop_offsets": [
+				3,
+				8
+			],
+			"anim": "sweat",
+			"idle_offsets": [
+				0,
+				-3
+			],
+			"loop_name": "J_Sweat_Talk",
+			"idle_name": "J_Sweat "
+		},
+		{
+			"loop_offsets": [
+				1,
+				10
+			],
+			"anim": "think",
+			"idle_offsets": [
+				0,
+				-3
+			],
+			"loop_name": "J_Think_Talk",
+			"idle_name": "J_Think "
+		},
+		{
+			"loop_offsets": [
+				1,
+				13
+			],
+			"anim": "sus",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "J_Sus_Talk",
+			"idle_name": "J_Sus "
+		}
+	]
+}
