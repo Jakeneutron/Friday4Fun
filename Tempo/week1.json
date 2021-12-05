@@ -1,0 +1,48 @@
+{
+	"storyName": "Training & Catching Up!",
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"weekCharacters": [
+		"dad",
+		"bf",
+		""
+	],
+	"songs": [
+		[
+			"Worked Up",
+			"ramses",
+			[
+				126,
+				113,
+				253
+			]
+		],
+		[
+			"Flexin'",
+			"ramses",
+			[
+				186,
+				53,
+				255
+			]
+		],
+		[
+			"Throb",
+			"ramses",
+			[
+				255,
+				0,
+				175
+			]
+		]
+	],
+	"weekName": "Ramses"
+}

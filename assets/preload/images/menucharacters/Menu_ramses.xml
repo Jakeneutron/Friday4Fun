@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Menu_ramses.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="R_Idle instance 10000" x="0" y="0" width="378" height="521" frameX="0" frameY="-15" frameWidth="378" frameHeight="537"/>
+	<SubTexture name="R_Idle instance 10001" x="0" y="0" width="378" height="521" frameX="0" frameY="-15" frameWidth="378" frameHeight="537"/>
+	<SubTexture name="R_Idle instance 10002" x="428" y="0" width="359" height="524" frameX="-11" frameY="-13" frameWidth="378" frameHeight="537"/>
+	<SubTexture name="R_Idle instance 10003" x="428" y="0" width="359" height="524" frameX="-11" frameY="-13" frameWidth="378" frameHeight="537"/>
+	<SubTexture name="R_Idle instance 10004" x="428" y="0" width="359" height="524" frameX="-11" frameY="-13" frameWidth="378" frameHeight="537"/>
+	<SubTexture name="R_Idle instance 10005" x="837" y="0" width="356" height="533" frameX="-13" frameY="-3" frameWidth="378" frameHeight="537"/>
+	<SubTexture name="R_Idle instance 10006" x="1243" y="0" width="356" height="533" frameX="-13" frameY="-3" frameWidth="378" frameHeight="537"/>
+	<SubTexture name="R_Idle instance 10007" x="1649" y="0" width="356" height="535" frameX="-13" frameY="-1" frameWidth="378" frameHeight="537"/>
+	<SubTexture name="R_Idle instance 10008" x="0" y="585" width="356" height="535" frameX="-13" frameY="-1" frameWidth="378" frameHeight="537"/>
+	<SubTexture name="R_Idle instance 10009" x="406" y="585" width="356" height="536" frameX="-13" frameY="0" frameWidth="378" frameHeight="537"/>
+	<SubTexture name="R_Idle instance 10010" x="812" y="585" width="356" height="536" frameX="-13" frameY="0" frameWidth="378" frameHeight="537"/>
+	<SubTexture name="R_Idle instance 10011" x="1218" y="585" width="357" height="536" frameX="-12" frameY="0" frameWidth="378" frameHeight="537"/>
+	<SubTexture name="R_Idle instance 10012" x="1218" y="585" width="357" height="536" frameX="-12" frameY="0" frameWidth="378" frameHeight="537"/>
+	<SubTexture name="R_Idle instance 10013" x="1625" y="585" width="366" height="521" frameX="-10" frameY="-15" frameWidth="378" frameHeight="537"/>
+	<SubTexture name="R_Idle instance 10014" x="1625" y="585" width="366" height="521" frameX="-10" frameY="-15" frameWidth="378" frameHeight="537"/>
+	<SubTexture name="R_Idle instance 10015" x="0" y="1171" width="358" height="523" frameX="-12" frameY="-13" frameWidth="378" frameHeight="537"/>
+	<SubTexture name="R_Idle instance 10016" x="0" y="1171" width="358" height="523" frameX="-12" frameY="-13" frameWidth="378" frameHeight="537"/>
+	<SubTexture name="R_Idle instance 10017" x="408" y="1171" width="356" height="533" frameX="-13" frameY="-3" frameWidth="378" frameHeight="537"/>
+	<SubTexture name="R_Idle instance 10018" x="814" y="1171" width="356" height="533" frameX="-13" frameY="-3" frameWidth="378" frameHeight="537"/>
+	<SubTexture name="R_Idle instance 10019" x="1220" y="1171" width="356" height="535" frameX="-13" frameY="-1" frameWidth="378" frameHeight="537"/>
+	<SubTexture name="R_Idle instance 10020" x="1626" y="1171" width="356" height="535" frameX="-13" frameY="-1" frameWidth="378" frameHeight="537"/>
+	<SubTexture name="R_Idle instance 10021" x="0" y="1756" width="356" height="536" frameX="-13" frameY="0" frameWidth="378" frameHeight="537"/>
+	<SubTexture name="R_Idle instance 10022" x="406" y="1756" width="356" height="536" frameX="-13" frameY="0" frameWidth="378" frameHeight="537"/>
+	<SubTexture name="R_Idle instance 10023" x="812" y="1756" width="359" height="536" frameX="-10" frameY="0" frameWidth="378" frameHeight="537"/>
+	<SubTexture name="R_Idle instance 10024" x="1221" y="1756" width="359" height="536" frameX="-10" frameY="0" frameWidth="378" frameHeight="537"/>
+</TextureAtlas>

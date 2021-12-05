@@ -68,6 +68,8 @@ class DialogueCharacter extends FlxSprite
 	public var isGhost:Bool = false; //For the editor
 	public var curCharacter:String = 'bf';
 
+	
+
 	public function new(x:Float = 0, y:Float = 0, character:String = null)
 	{
 		super(x, y);
@@ -165,8 +167,15 @@ class DialogueBoxPsych extends FlxSpriteGroup
 	var currentText:Int = 0;
 	var offsetPos:Float = -600;
 
+	var skipText:FlxText;
+	var skipText2:FlxText;
+
+	var skipped:Bool = false;
+
 	var textBoxTypes:Array<String> = ['normal', 'angry'];
 	//var charPositionList:Array<String> = ['left', 'center', 'right'];
+
+		
 
 	public function new(dialogueList:DialogueFile, ?song:String = null)
 	{
@@ -203,6 +212,16 @@ class DialogueBoxPsych extends FlxSpriteGroup
 		box.setGraphicSize(Std.int(box.width * 0.9));
 		box.updateHitbox();
 		add(box);
+
+		skipText2 = new FlxText(142, 682, Std.int(FlxG.width * 0.6), "Press BACK to Skip", 19);
+		skipText2.font = 'Pixel Arial 11 Bold';
+		skipText2.color = 0xFFFFFFFF;
+		add(skipText2);
+		
+		skipText = new FlxText(140, 680, Std.int(FlxG.width * 0.6), "Press BACK to Skip", 19);
+		skipText.font = 'Pixel Arial 11 Bold';
+		skipText.color = 0xFF000000;
+		add(skipText);
 
 		startNextDialog();
 	}
@@ -365,7 +384,8 @@ class DialogueBoxPsych extends FlxSpriteGroup
 					}
 				}
 			}
-		} else { //Dialogue ending
+		} else 
+		{ //Dialogue ending
 			if(box != null && box.animation.curAnim.curFrame <= 0) {
 				box.kill();
 				remove(box);
@@ -412,6 +432,12 @@ class DialogueBoxPsych extends FlxSpriteGroup
 				kill();
 			}
 		}
+
+		if (PlayerSettings.player1.controls.BACK)
+			{
+				finishThing();
+				kill();	
+			}
 		super.update(elapsed);
 	}
 

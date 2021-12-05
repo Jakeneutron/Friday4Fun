@@ -1,0 +1,100 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-12,
+				47
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "danceRight",
+			"loop": false,
+			"name": "R_DanceRight"
+		},
+		{
+			"offsets": [
+				89,
+				38
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "R_Left_Alt"
+		},
+		{
+			"offsets": [
+				23,
+				50
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "danceLeft",
+			"loop": false,
+			"name": "R_DanceLeft-Alt"
+		},
+		{
+			"offsets": [
+				18,
+				62
+			],
+			"indices": [],
+			"fps": 15,
+			"anim": "phew",
+			"loop": false,
+			"name": "R_Phew"
+		},
+		{
+			"offsets": [
+				-120,
+				50
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "R_Right_Alt"
+		},
+		{
+			"offsets": [
+				45,
+				-168
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "R_Down_Alt"
+		},
+		{
+			"offsets": [
+				-43,
+				78
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "R_Up_Alt"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Ramses_P2",
+	"position": [
+		-40,
+		-50
+	],
+	"healthicon": "ramses",
+	"flip_x": false,
+	"healthbar_colors": [
+		115,
+		102,
+		206
+	],
+	"camera_position": [
+		-140,
+		-140
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

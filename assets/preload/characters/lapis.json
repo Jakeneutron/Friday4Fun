@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "L_Idle"
+		},
+		{
+			"offsets": [
+				-15,
+				15
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "L_Up"
+		},
+		{
+			"offsets": [
+				-15,
+				-1
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "L_Left"
+		},
+		{
+			"offsets": [
+				-15,
+				4
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "L_Right"
+		},
+		{
+			"offsets": [
+				-15,
+				7
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "L_Down"
+		},
+		{
+			"offsets": [
+				-15,
+				-23
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "ugh",
+			"loop": false,
+			"name": "L_Ugh"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Lapis",
+	"position": [
+		0,
+		210
+	],
+	"healthicon": "lapis",
+	"flip_x": false,
+	"healthbar_colors": [
+		15,
+		102,
+		206
+	],
+	"camera_position": [
+		-120,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Lapis.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="L_Down instance 10000" x="0" y="0" width="371" height="515"/>
+	<SubTexture name="L_Down instance 10001" x="0" y="0" width="371" height="515"/>
+	<SubTexture name="L_Down instance 10002" x="421" y="0" width="371" height="498" frameX="0" frameY="-17" frameWidth="371" frameHeight="515"/>
+	<SubTexture name="L_Down instance 10003" x="421" y="0" width="371" height="498" frameX="0" frameY="-17" frameWidth="371" frameHeight="515"/>
+	<SubTexture name="L_Idle instance 10000" x="842" y="0" width="399" height="505" frameX="0" frameY="-4" frameWidth="399" frameHeight="509"/>
+	<SubTexture name="L_Idle instance 10001" x="1291" y="0" width="386" height="466" frameX="-7" frameY="-43" frameWidth="399" frameHeight="509"/>
+	<SubTexture name="L_Idle instance 10002" x="1727" y="0" width="379" height="482" frameX="-11" frameY="-27" frameWidth="399" frameHeight="509"/>
+	<SubTexture name="L_Idle instance 10003" x="2156" y="0" width="375" height="494" frameX="-13" frameY="-15" frameWidth="399" frameHeight="509"/>
+	<SubTexture name="L_Idle instance 10004" x="2581" y="0" width="371" height="502" frameX="-15" frameY="-7" frameWidth="399" frameHeight="509"/>
+	<SubTexture name="L_Idle instance 10005" x="3002" y="0" width="372" height="506" frameX="-15" frameY="-3" frameWidth="399" frameHeight="509"/>
+	<SubTexture name="L_Idle instance 10006" x="3424" y="0" width="371" height="508" frameX="-15" frameY="-1" frameWidth="399" frameHeight="509"/>
+	<SubTexture name="L_Idle instance 10007" x="0" y="565" width="371" height="509" frameX="-15" frameY="0" frameWidth="399" frameHeight="509"/>
+	<SubTexture name="L_Idle instance 10008" x="421" y="565" width="371" height="508" frameX="-15" frameY="-1" frameWidth="399" frameHeight="509"/>
+	<SubTexture name="L_Idle instance 10009" x="421" y="565" width="371" height="508" frameX="-15" frameY="-1" frameWidth="399" frameHeight="509"/>
+	<SubTexture name="L_Idle instance 10010" x="421" y="565" width="371" height="508" frameX="-15" frameY="-1" frameWidth="399" frameHeight="509"/>
+	<SubTexture name="L_Idle instance 10011" x="421" y="565" width="371" height="508" frameX="-15" frameY="-1" frameWidth="399" frameHeight="509"/>
+	<SubTexture name="L_Idle instance 10012" x="421" y="565" width="371" height="508" frameX="-15" frameY="-1" frameWidth="399" frameHeight="509"/>
+	<SubTexture name="L_Idle instance 10013" x="421" y="565" width="371" height="508" frameX="-15" frameY="-1" frameWidth="399" frameHeight="509"/>
+	<SubTexture name="L_Left instance 10000" x="842" y="565" width="371" height="497" frameX="0" frameY="-11" frameWidth="371" frameHeight="508"/>
+	<SubTexture name="L_Left instance 10001" x="842" y="565" width="371" height="497" frameX="0" frameY="-11" frameWidth="371" frameHeight="508"/>
+	<SubTexture name="L_Left instance 10002" x="1263" y="565" width="371" height="508"/>
+	<SubTexture name="L_Left instance 10003" x="1263" y="565" width="371" height="508"/>
+	<SubTexture name="L_Right instance 10000" x="1684" y="565" width="371" height="513"/>
+	<SubTexture name="L_Right instance 10001" x="1684" y="565" width="371" height="513"/>
+	<SubTexture name="L_Right instance 10002" x="2105" y="565" width="371" height="508" frameX="0" frameY="-5" frameWidth="371" frameHeight="513"/>
+	<SubTexture name="L_Right instance 10003" x="2105" y="565" width="371" height="508" frameX="0" frameY="-5" frameWidth="371" frameHeight="513"/>
+	<SubTexture name="L_Ugh instance 10000" x="2526" y="565" width="371" height="485"/>
+	<SubTexture name="L_Ugh instance 10001" x="2526" y="565" width="371" height="485"/>
+	<SubTexture name="L_Ugh instance 10002" x="2947" y="565" width="371" height="473" frameX="0" frameY="-12" frameWidth="371" frameHeight="485"/>
+	<SubTexture name="L_Ugh instance 10003" x="3368" y="565" width="371" height="473" frameX="0" frameY="-11" frameWidth="371" frameHeight="485"/>
+	<SubTexture name="L_Ugh instance 10004" x="0" y="1128" width="371" height="481" frameX="0" frameY="-4" frameWidth="371" frameHeight="485"/>
+	<SubTexture name="L_Ugh instance 10005" x="421" y="1128" width="371" height="479" frameX="0" frameY="-6" frameWidth="371" frameHeight="485"/>
+	<SubTexture name="L_Ugh instance 10006" x="842" y="1128" width="371" height="481" frameX="0" frameY="-4" frameWidth="371" frameHeight="485"/>
+	<SubTexture name="L_Ugh instance 10007" x="1263" y="1128" width="371" height="482" frameX="0" frameY="-3" frameWidth="371" frameHeight="485"/>
+	<SubTexture name="L_Ugh instance 10008" x="1263" y="1128" width="371" height="482" frameX="0" frameY="-3" frameWidth="371" frameHeight="485"/>
+	<SubTexture name="L_Up instance 10000" x="1684" y="1128" width="371" height="508" frameX="0" frameY="-15" frameWidth="371" frameHeight="524"/>
+	<SubTexture name="L_Up instance 10001" x="1684" y="1128" width="371" height="508" frameX="0" frameY="-15" frameWidth="371" frameHeight="524"/>
+	<SubTexture name="L_Up instance 10002" x="2105" y="1128" width="371" height="524"/>
+	<SubTexture name="L_Up instance 10003" x="2105" y="1128" width="371" height="524"/>
+</TextureAtlas>

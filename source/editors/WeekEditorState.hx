@@ -430,7 +430,7 @@ class WeekEditorState extends MusicBeatState
 			if(FlxG.keys.justPressed.ESCAPE) {
 				FlxG.mouse.visible = false;
 				MusicBeatState.switchState(new editors.MasterEditorMenu());
-				FlxG.sound.playMusic(Paths.music('freakyMenu'));
+				FlxG.sound.playMusic(Paths.music('workedupMenu'));
 			}
 		}
 
@@ -578,7 +578,7 @@ class WeekEditorFreeplayState extends MusicBeatState
 	var curSelected = 0;
 
 	override function create() {
-		bg = new FlxSprite().loadGraphic(Paths.image('menuDesat'));
+		bg = new FlxSprite().loadGraphic(Paths.image('MenuBG_Desat'));
 		bg.antialiasing = ClientPrefs.globalAntialiasing;
 
 		bg.color = FlxColor.WHITE;
@@ -793,7 +793,7 @@ class WeekEditorFreeplayState extends MusicBeatState
 			if(FlxG.keys.justPressed.ESCAPE) {
 				FlxG.mouse.visible = false;
 				MusicBeatState.switchState(new editors.MasterEditorMenu());
-				FlxG.sound.playMusic(Paths.music('freakyMenu'));
+				FlxG.sound.playMusic(Paths.music('workedupMenu'));
 			}
 
 			if(controls.UI_UP_P) changeSelection(-1);

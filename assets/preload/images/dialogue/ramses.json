@@ -1,0 +1,115 @@
+{
+	"position": [
+		60,
+		-70
+	],
+	"dialogue_pos": "left",
+	"scale": 1.3,
+	"image": "Ramses_Dialogue",
+	"animations": [
+		{
+			"loop_offsets": [
+				7,
+				4
+			],
+			"anim": "normal",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "J_Normal_Talk",
+			"idle_name": "J_Normal "
+		},
+		{
+			"loop_offsets": [
+				5,
+				-1
+			],
+			"anim": "neutral",
+			"idle_offsets": [
+				0,
+				-4
+			],
+			"loop_name": "J_Neutral_Talk",
+			"idle_name": "J_Neutral "
+		},
+		{
+			"loop_offsets": [
+				5,
+				-5
+			],
+			"anim": "sad",
+			"idle_offsets": [
+				0,
+				-8
+			],
+			"loop_name": "J_Sad_Talk",
+			"idle_name": "J_Sad "
+		},
+		{
+			"loop_offsets": [
+				4,
+				0
+			],
+			"anim": "scared",
+			"idle_offsets": [
+				0,
+				-4
+			],
+			"loop_name": "J_Scared_Talk",
+			"idle_name": "J_Scared "
+		},
+		{
+			"loop_offsets": [
+				6,
+				-4
+			],
+			"anim": "blushing",
+			"idle_offsets": [
+				0,
+				-7
+			],
+			"loop_name": "J_Blushing_Talk",
+			"idle_name": "J_Blushing "
+		},
+		{
+			"loop_offsets": [
+				5,
+				0
+			],
+			"anim": "flushed",
+			"idle_offsets": [
+				0,
+				-4
+			],
+			"loop_name": "J_Flushed_Talk",
+			"idle_name": "J_Flushed "
+		},
+		{
+			"loop_name": "J_Angry_Talk",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "J_Angry ",
+			"anim": "upset",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "J_Normal_Talk",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "J_Normal ",
+			"anim": "talk",
+			"loop_offsets": [
+				0,
+				0
+			]
+		}
+	]
+}

@@ -146,18 +146,18 @@ class TitleState extends MusicBeatState
 			// https://github.com/HaxeFlixel/flixel-addons/pull/348
 
 			// var music:FlxSound = new FlxSound();
-			// music.loadStream(Paths.music('freakyMenu'));
+			// music.loadStream(Paths.music('workedupMenu'));
 			// FlxG.sound.list.add(music);
 			// music.play();
 
 			if(FlxG.sound.music == null) {
-				FlxG.sound.playMusic(Paths.music('freakyMenu'), 0);
+				FlxG.sound.playMusic(Paths.music('workedupMenu'), 0);
 
 				FlxG.sound.music.fadeIn(4, 0, 0.7);
 			}
 		}
 
-		Conductor.changeBPM(102);
+		Conductor.changeBPM(105);
 		persistentUpdate = true;
 
 		var bg:FlxSprite = new FlxSprite().makeGraphic(FlxG.width, FlxG.height, FlxColor.BLACK);
@@ -423,8 +423,10 @@ class TitleState extends MusicBeatState
 
 			if (danceLeft)
 				gfDance.animation.play('danceRight');
+				
 			else
 				gfDance.animation.play('danceLeft');
+			    
 		}
 
 		if(!closedState) {
@@ -444,9 +446,9 @@ class TitleState extends MusicBeatState
 				// credTextShit.text = 'In association \nwith';
 				// credTextShit.screenCenter();
 				case 5:
-					createCoolText(['This is a mod to'], -60);
+					createCoolText(['Modified by'], -60);
 				case 7:
-					addMoreText('This game right below lol', -60);
+					addMoreText('Jakeneutron', -60);
 					logoSpr.visible = true;
 				// credTextShit.text += '\nNewgrounds';
 				case 8:
@@ -457,26 +459,39 @@ class TitleState extends MusicBeatState
 				// credTextShit.text = 'Shoutouts Tom Fulp';
 				// credTextShit.screenCenter();
 				case 9:
-					createCoolText([curWacky[0]]);
+					createCoolText(["Just having a little"]);
 				// credTextShit.visible = true;
 				case 11:
-					addMoreText(curWacky[1]);
+					addMoreText("fun guys!");
 				// credTextShit.text += '\nlmao';
 				case 12:
 					deleteCoolText();
 				// credTextShit.visible = false;
 				// credTextShit.text = "Friday";
 				// credTextShit.screenCenter();
+
 				case 13:
-					addMoreText('Friday');
+					createCoolText([curWacky[0]]);
 				// credTextShit.visible = true;
 				case 14:
-					addMoreText('Night');
-				// credTextShit.text += '\nNight';
-				case 15:
-					addMoreText('Funkin'); // credTextShit.text += '\nFunkin';
-
+					addMoreText(curWacky[1]);
+				// credTextShit.text += '\nlmao';
 				case 16:
+					deleteCoolText();
+				// credTextShit.visible = false;
+				// credTextShit.text = "Friday";
+				// credTextShit.screenCenter();
+
+				case 17:
+					addMoreText('Friday');
+				// credTextShit.visible = true;
+				case 18:
+					addMoreText('4');
+				// credTextShit.text += '\nNight';
+				case 19:
+					addMoreText('Fun'); // credTextShit.text += '\nFunkin';
+
+				case 20:
 					skipIntro();
 			}
 		}

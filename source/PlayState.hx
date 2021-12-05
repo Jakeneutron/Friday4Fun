@@ -210,6 +210,7 @@ class PlayState extends MusicBeatState
 
 	var bgGlazey:BGSprite;
 	var bgSega:BGSprite;
+	var tabTops:BGSprite;
 
 	public var songScore:Int = 0;
 	public var songHits:Int = 0;
@@ -364,28 +365,50 @@ class PlayState extends MusicBeatState
 					add(stageCurtains);
 				}
 
-				case 'bestbuy': //Store 1
-				var bg:BGSprite = new BGSprite('Best Buy/BG_Full', -900, -500, 0.6, 0.6);
-				add(bg);
+				case 'bestbuy-og': //Store 1
+					var bg:BGSprite = new BGSprite('Best Buy/BG_Full', -900, -500, 0.6, 0.6);
+					add(bg);
 
-				var theFloor:BGSprite = new BGSprite('Best Buy/BG_Floor', -550, -220, 0.9, 0.9);
-				theFloor.setGraphicSize(Std.int(theFloor.width * 1.1));
-				theFloor.updateHitbox();
-				add(theFloor);
+					var theFloor:BGSprite = new BGSprite('Best Buy/BG_Floor', -550, -220, 0.9, 0.9);
+					theFloor.setGraphicSize(Std.int(theFloor.width * 1.1));
+					theFloor.updateHitbox();
+					add(theFloor);
 
-				bgSega = new BGSprite('Best Buy/SEGA_BG', 600, 250, 0.8, 0.8, ['Sega_BG_Flat']);
-				//bgSega.animation.addByPrefix('hey', 'Bottom Level Boppers HEY', 24, false);
-				bgSega.setGraphicSize(Std.int(bgSega.width * 1));
-				bgSega.updateHitbox();
-				add(bgSega);
+					bgSega = new BGSprite('Best Buy/SEGA_BG', 600, 250, 0.8, 0.8, ['Sega_BG_Flat']);
+					//bgSega.animation.addByPrefix('hey', 'Bottom Level Boppers HEY', 24, false);
+					bgSega.setGraphicSize(Std.int(bgSega.width * 1));
+					bgSega.updateHitbox();
+					add(bgSega);
 
-				bgGlazey = new BGSprite('Best Buy/Glazey_BG', 350, 200, 0.85, 0.85, ['Glazey_BG_Flat']);
-				//bgGlazey.animation.addByPrefix('hey', 'Bottom Level Boppers HEY', 24, false);
-				bgGlazey.setGraphicSize(Std.int(bgGlazey.width * 1));
-				bgGlazey.updateHitbox();
-				add(bgGlazey);
+					bgGlazey = new BGSprite('Best Buy/Glazey_BG', 350, 200, 0.85, 0.85, ['Glazey_BG_Flat']);
+					//bgGlazey.animation.addByPrefix('hey', 'Bottom Level Boppers HEY', 24, false);
+					bgGlazey.setGraphicSize(Std.int(bgGlazey.width * 1));
+					bgGlazey.updateHitbox();
+					add(bgGlazey);
 
-				
+				case 'bestbuy': //Store 1 UPDATED
+					var bg:BGSprite = new BGSprite('Best Buy/BG_Full2', -900, -328, 0.8, 0.8);
+					add(bg);
+
+					
+
+					bgSega = new BGSprite('Best Buy/SEGA_BG', 600, 250, 0.8, 0.8, ['Sega_BG_Flat']);
+					//bgSega.animation.addByPrefix('hey', 'Bottom Level Boppers HEY', 24, false);
+					bgSega.setGraphicSize(Std.int(bgSega.width * 1));
+					bgSega.updateHitbox();
+					add(bgSega);
+
+					bgGlazey = new BGSprite('Best Buy/Glazey_BG', 350, 200, 0.85, 0.85, ['Glazey_BG_Flat']);
+					//bgGlazey.animation.addByPrefix('hey', 'Bottom Level Boppers HEY', 24, false);
+					bgGlazey.setGraphicSize(Std.int(bgGlazey.width * 1));
+					bgGlazey.updateHitbox();
+					add(bgGlazey);
+
+
+					tabTops = new BGSprite('Best Buy/FG_Full2', -650, -150, 1.1, 1.1);
+					tabTops.setGraphicSize(Std.int(tabTops.width * 1.1));
+					tabTops.updateHitbox();
+
 
 
 			case 'spooky': //Week 2
@@ -747,6 +770,11 @@ class PlayState extends MusicBeatState
 			}
 		}
 
+		// zoom out camera for Ramses
+		if(dad.curCharacter.startsWith('ramses')) {
+			FlxG.camera.zoom = 0.8;
+		}
+
 		switch(curStage)
 		{
 			case 'limo':
@@ -758,6 +786,7 @@ class PlayState extends MusicBeatState
 				add(evilTrail);
 			case 'bestbuy':
 				gf.alpha = 0;
+				add(tabTops);
 		}
 
 		add(gfGroup);
@@ -774,6 +803,11 @@ class PlayState extends MusicBeatState
 		if(curStage == 'spooky') {
 			add(halloweenWhite);
 		}
+
+		if (curStage == 'bestbuy')
+			{
+				
+			}
 
 		// Black Foreground
 		blackFG = new FlxSprite().makeGraphic(Std.int(FlxG.width * 2), Std.int(FlxG.height * 2), FlxColor.BLACK);
@@ -1038,6 +1072,8 @@ class PlayState extends MusicBeatState
 					schoolIntro(doof);
 
 				case "out-of-stock":
+					startDialogue(dialogueJson);
+				case "worked-up":
 					startDialogue(dialogueJson);
 
 				default:
@@ -2960,7 +2996,7 @@ class PlayState extends MusicBeatState
 
 			if (storyPlaylist.length <= 0)
 			{
-				FlxG.sound.playMusic(Paths.music('freakyMenu'));
+				FlxG.sound.playMusic(Paths.music('workedupMenu'));
 
 				cancelFadeTween();
 				MusicBeatState.switchState(new StoryMenuState());
@@ -3023,7 +3059,7 @@ class PlayState extends MusicBeatState
 			trace('WENT BACK TO FREEPLAY??');
 			cancelFadeTween();
 			MusicBeatState.switchState(new FreeplayState());
-			FlxG.sound.playMusic(Paths.music('freakyMenu'));
+			FlxG.sound.playMusic(Paths.music('workedupMenu'));
 			usedPractice = false;
 			changedDifficulty = false;
 			cpuControlled = false;
