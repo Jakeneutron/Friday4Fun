@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="EleOS.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="EleOS_Down instance 10000" x="0" y="0" width="431" height="460" frameX="-2" frameY="-14" frameWidth="433" frameHeight="474"/>
+	<SubTexture name="EleOS_Down instance 10001" x="0" y="0" width="431" height="460" frameX="-2" frameY="-14" frameWidth="433" frameHeight="474"/>
+	<SubTexture name="EleOS_Down instance 10002" x="481" y="0" width="428" height="474" frameX="0" frameY="0" frameWidth="433" frameHeight="474"/>
+	<SubTexture name="EleOS_Down instance 10003" x="481" y="0" width="428" height="474" frameX="0" frameY="0" frameWidth="433" frameHeight="474"/>
+	<SubTexture name="EleOS_Down instance 10004" x="481" y="0" width="428" height="474" frameX="0" frameY="0" frameWidth="433" frameHeight="474"/>
+	<SubTexture name="EleOS_Down instance 10005" x="481" y="0" width="428" height="474" frameX="0" frameY="0" frameWidth="433" frameHeight="474"/>
+	<SubTexture name="EleOS_Idle instance 10000" x="959" y="0" width="450" height="461" frameX="-12" frameY="-6" frameWidth="479" frameHeight="467"/>
+	<SubTexture name="EleOS_Idle instance 10001" x="959" y="0" width="450" height="461" frameX="-12" frameY="-6" frameWidth="479" frameHeight="467"/>
+	<SubTexture name="EleOS_Idle instance 10002" x="1459" y="0" width="453" height="466" frameX="-9" frameY="-1" frameWidth="479" frameHeight="467"/>
+	<SubTexture name="EleOS_Idle instance 10003" x="1459" y="0" width="453" height="466" frameX="-9" frameY="-1" frameWidth="479" frameHeight="467"/>
+	<SubTexture name="EleOS_Idle instance 10004" x="1962" y="0" width="477" height="465" frameX="-2" frameY="-2" frameWidth="479" frameHeight="467"/>
+	<SubTexture name="EleOS_Idle instance 10005" x="1962" y="0" width="477" height="465" frameX="-2" frameY="-2" frameWidth="479" frameHeight="467"/>
+	<SubTexture name="EleOS_Idle instance 10006" x="2489" y="0" width="470" height="467" frameX="0" frameY="0" frameWidth="479" frameHeight="467"/>
+	<SubTexture name="EleOS_Idle instance 10007" x="2489" y="0" width="470" height="467" frameX="0" frameY="0" frameWidth="479" frameHeight="467"/>
+	<SubTexture name="EleOS_Idle instance 10008" x="3009" y="0" width="467" height="467" frameX="0" frameY="0" frameWidth="479" frameHeight="467"/>
+	<SubTexture name="EleOS_Idle instance 10009" x="3009" y="0" width="467" height="467" frameX="0" frameY="0" frameWidth="479" frameHeight="467"/>
+	<SubTexture name="EleOS_Idle instance 10010" x="3009" y="0" width="467" height="467" frameX="0" frameY="0" frameWidth="479" frameHeight="467"/>
+	<SubTexture name="EleOS_Idle instance 10011" x="3009" y="0" width="467" height="467" frameX="0" frameY="0" frameWidth="479" frameHeight="467"/>
+	<SubTexture name="EleOS_Idle instance 10012" x="3009" y="0" width="467" height="467" frameX="0" frameY="0" frameWidth="479" frameHeight="467"/>
+	<SubTexture name="EleOS_Left instance 10000" x="3526" y="0" width="441" height="487" frameX="-3" frameY="0" frameWidth="444" frameHeight="487"/>
+	<SubTexture name="EleOS_Left instance 10001" x="3526" y="0" width="441" height="487" frameX="-3" frameY="0" frameWidth="444" frameHeight="487"/>
+	<SubTexture name="EleOS_Left instance 10002" x="0" y="537" width="444" height="482" frameX="0" frameY="-5" frameWidth="444" frameHeight="487"/>
+	<SubTexture name="EleOS_Left instance 10003" x="0" y="537" width="444" height="482" frameX="0" frameY="-5" frameWidth="444" frameHeight="487"/>
+	<SubTexture name="EleOS_Left instance 10004" x="0" y="537" width="444" height="482" frameX="0" frameY="-5" frameWidth="444" frameHeight="487"/>
+	<SubTexture name="EleOS_Left instance 10005" x="0" y="537" width="444" height="482" frameX="0" frameY="-5" frameWidth="444" frameHeight="487"/>
+	<SubTexture name="EleOS_Right instance 10000" x="494" y="537" width="458" height="483" frameX="0" frameY="-3" frameWidth="458" frameHeight="486"/>
+	<SubTexture name="EleOS_Right instance 10001" x="494" y="537" width="458" height="483" frameX="0" frameY="-3" frameWidth="458" frameHeight="486"/>
+	<SubTexture name="EleOS_Right instance 10002" x="1002" y="537" width="435" height="486" frameX="-20" frameY="0" frameWidth="458" frameHeight="486"/>
+	<SubTexture name="EleOS_Right instance 10003" x="1002" y="537" width="435" height="486" frameX="-20" frameY="0" frameWidth="458" frameHeight="486"/>
+	<SubTexture name="EleOS_Right instance 10004" x="1002" y="537" width="435" height="486" frameX="-20" frameY="0" frameWidth="458" frameHeight="486"/>
+	<SubTexture name="EleOS_Right instance 10005" x="1002" y="537" width="435" height="486" frameX="-20" frameY="0" frameWidth="458" frameHeight="486"/>
+	<SubTexture name="EleOS_Up instance 10000" x="1487" y="537" width="404" height="483" frameX="0" frameY="0" frameWidth="408" frameHeight="484"/>
+	<SubTexture name="EleOS_Up instance 10001" x="1487" y="537" width="404" height="483" frameX="0" frameY="0" frameWidth="408" frameHeight="484"/>
+	<SubTexture name="EleOS_Up instance 10002" x="1941" y="537" width="408" height="476" frameX="0" frameY="-8" frameWidth="408" frameHeight="484"/>
+	<SubTexture name="EleOS_Up instance 10003" x="1941" y="537" width="408" height="476" frameX="0" frameY="-8" frameWidth="408" frameHeight="484"/>
+	<SubTexture name="EleOS_Up instance 10004" x="1941" y="537" width="408" height="476" frameX="0" frameY="-8" frameWidth="408" frameHeight="484"/>
+	<SubTexture name="EleOS_Up instance 10005" x="1941" y="537" width="408" height="476" frameX="0" frameY="-8" frameWidth="408" frameHeight="484"/>
+</TextureAtlas>

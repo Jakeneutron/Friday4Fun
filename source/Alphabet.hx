@@ -211,7 +211,7 @@ class Alphabet extends FlxSpriteGroup
 				timerCheck();
 			}
 			if(dialogueSound != null) dialogueSound.stop();
-			dialogueSound = FlxG.sound.play(Paths.sound('dialogue'));
+			dialogueSound = FlxG.sound.play(Paths.sound('softdialogue'));
 		} else {
 			typeTimer = new FlxTimer().start(0.1, function(tmr:FlxTimer) {
 				typeTimer = new FlxTimer().start(speed, function(tmr:FlxTimer) {
@@ -309,7 +309,7 @@ class Alphabet extends FlxSpriteGroup
 
 				if(tmr != null) {
 					if(dialogueSound != null) dialogueSound.stop();
-					dialogueSound = FlxG.sound.play(Paths.sound('dialogue'));
+					dialogueSound = FlxG.sound.play(Paths.sound('softdialogue'));
 				}
 
 				add(letter);

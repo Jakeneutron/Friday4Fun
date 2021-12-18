@@ -1,0 +1,30 @@
+{
+	"songs": [
+		[
+			"Appreciate",
+			"eleos",
+			[
+				95,
+				255,
+				200
+			]
+		]
+	],
+	"hideFreeplay": false,
+	"weekBackground": "desktop",
+	"weekCharacters": [
+		"eleos",
+		"bf-os",
+		"gf-os"
+	],
+	"storyName": "They'll Come To Reboot Me",
+	"weekName": "EleOS",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": false,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}

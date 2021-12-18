@@ -1,6 +1,6 @@
 {
 	"song": {
-		"player1": "bf",
+		"player1": "bf-ramses",
 		"player2": "ramses1",
 		"notes": [
 			{
@@ -372,6 +372,13 @@
 						"Add Camera Zoom",
 						"0.4",
 						""
+					],
+					[
+						19571.4285714286,
+						-1,
+						"Play Animation",
+						"oh",
+						"2"
 					]
 				],
 				"mustHitSection": false
@@ -623,6 +630,13 @@
 						37714.2857142857,
 						2,
 						0
+					],
+					[
+						38714.2857142857,
+						-1,
+						"Set GF Speed",
+						"2",
+						""
 					]
 				],
 				"mustHitSection": true
@@ -685,6 +699,13 @@
 						40857.1428571429,
 						4,
 						0
+					],
+					[
+						38857.1428571429,
+						-1,
+						"Hey!",
+						"2",
+						""
 					]
 				],
 				"mustHitSection": false
@@ -1116,6 +1137,20 @@
 						"Play Animation",
 						"phew",
 						"0"
+					],
+					[
+						57000,
+						-1,
+						"Set GF Speed",
+						"4",
+						""
+					],
+					[
+						54857.1428571428,
+						-1,
+						"Set GF Speed",
+						"1",
+						""
 					]
 				],
 				"mustHitSection": false
@@ -1130,6 +1165,13 @@
 						"Black BG Toggle",
 						"on",
 						"0.5"
+					],
+					[
+						59285.7142857143,
+						-1,
+						"Set GF Speed",
+						"1",
+						""
 					]
 				],
 				"mustHitSection": false
@@ -1833,6 +1875,13 @@
 						"Blammed Lights",
 						"5",
 						""
+					],
+					[
+						77732.1428571428,
+						-1,
+						"Alt Idle Animation",
+						"0",
+						"-alt"
 					]
 				],
 				"mustHitSection": false
@@ -2513,6 +2562,13 @@
 						"Change Character",
 						"1",
 						"ramses1"
+					],
+					[
+						95714.2857142857,
+						-1,
+						"Alt Idle Animation",
+						"0",
+						""
 					]
 				],
 				"mustHitSection": true
@@ -3569,6 +3625,78 @@
 			},
 			{
 				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"altAnim": false,
+				"bpm": 105,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 105
+			},
+			{
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 105
+			},
+			{
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 105
+			},
+			{
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 105
+			},
+			{
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 105,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 105,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 105,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
 				"sectionNotes": [],
@@ -3577,7 +3705,7 @@
 				"mustHitSection": true
 			}
 		],
-		"player3": "gf",
+		"player3": "gf-ramses",
 		"song": "Worked Up",
 		"stage": "mall",
 		"needsVoices": true,

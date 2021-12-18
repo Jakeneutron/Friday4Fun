@@ -322,7 +322,7 @@ class DialogueBoxPsych extends FlxSpriteGroup
 				} else {
 					startNextDialog();
 				}
-				FlxG.sound.play(Paths.sound('dialogueClose'));
+				FlxG.sound.play(Paths.sound('close_dialogue'));
 			} else if(daText.finishedText) {
 				var char:DialogueCharacter = arrayCharacters[lastCharacter];
 				if(char != null && char.animation.curAnim != null && char.animationIsLoop() && char.animation.finished) {

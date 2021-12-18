@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "EleOS_Idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				33,
+				19
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "EleOS_Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-27,
+				18
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "EleOS_Right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-1,
+				16
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "EleOS_Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				52,
+				6
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "EleOS_Down",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/EleOS",
+	"position": [
+		0,
+		250
+	],
+	"healthicon": "eleos",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		255,
+		85
+	],
+	"camera_position": [
+		0,
+		-170
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

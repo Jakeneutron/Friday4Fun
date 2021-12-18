@@ -4,6 +4,7 @@ local yy = 200;
 local xx2 = 820;
 local yy2 = 450;
 local ofs = 60;
+local ofs2 = 160;
 local followchars = true;
 local del = 0;
 local del2 = 0;
@@ -19,16 +20,30 @@ function onUpdate()
     if followchars == true then
         if mustHitSection == false then
             if getProperty('dad.animation.curAnim.name') == 'singLEFT' then
-                triggerEvent('Camera Follow Pos',xx-ofs,yy)
+                --triggerEvent('Camera Follow Pos',xx-ofs,yy)
+                if getProperty("dad.curCharacter") == "ramses2" then
+                    triggerEvent('Camera Follow Pos',xx-ofs2,yy)
+                    else
+                    triggerEvent('Camera Follow Pos',xx-ofs,yy)
+                    end
             end
             if getProperty('dad.animation.curAnim.name') == 'singRIGHT' then
-                triggerEvent('Camera Follow Pos',xx+ofs,yy)
+                --triggerEvent('Camera Follow Pos',xx+ofs,yy)
+                if getProperty("dad.curCharacter") == "ramses2" then
+                    triggerEvent('Camera Follow Pos',xx+ofs2,yy)
+                    else
+                    triggerEvent('Camera Follow Pos',xx+ofs,yy)
+                    end
             end
             if getProperty('dad.animation.curAnim.name') == 'singUP' then
                 triggerEvent('Camera Follow Pos',xx,yy-ofs)
             end
             if getProperty('dad.animation.curAnim.name') == 'singDOWN' then
-                triggerEvent('Camera Follow Pos',xx,yy+ofs)
+                if getProperty("dad.curCharacter") == "ramses2" then
+                    triggerEvent('Camera Follow Pos',xx,yy+ofs2)
+                    else
+                    triggerEvent('Camera Follow Pos',xx,yy+ofs)
+                    end
             end
             if getProperty('dad.animation.curAnim.name') == 'singLEFT-alt' then
                 triggerEvent('Camera Follow Pos',xx-ofs,yy)

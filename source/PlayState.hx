@@ -409,6 +409,24 @@ class PlayState extends MusicBeatState
 					tabTops.setGraphicSize(Std.int(tabTops.width * 1.1));
 					tabTops.updateHitbox();
 
+			case 'pc': //EleOS Stage
+
+				var scalingSize = 3;
+
+				var bg:BGSprite = new BGSprite('RebootMe/Desktop BG', -500, -1100, 0.9, 0.9);
+				bg.setGraphicSize(Std.int(bg.width * scalingSize));
+				bg.setGraphicSize(Std.int(bg.height * scalingSize));
+				//bg.updateHitbox();
+				add(bg);
+				bg.antialiasing = false;
+
+				var stageFront:BGSprite = new BGSprite('RebootMe/OS Items', -1600, -1480, 1, 1);
+				stageFront.setGraphicSize(Std.int(stageFront.width * scalingSize));
+				stageFront.setGraphicSize(Std.int(stageFront.height * scalingSize));
+				stageFront.updateHitbox();
+				add(stageFront);
+				stageFront.antialiasing = false;
+
 
 
 			case 'spooky': //Week 2

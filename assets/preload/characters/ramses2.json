@@ -2,46 +2,24 @@
 	"animations": [
 		{
 			"offsets": [
-				-12,
-				47
-			],
-			"indices": [],
-			"fps": 24,
-			"anim": "danceRight",
-			"loop": false,
-			"name": "R_DanceRight"
-		},
-		{
-			"offsets": [
 				89,
 				38
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "singLEFT",
-			"loop": false,
+			"indices": [],
 			"name": "R_Left_Alt"
 		},
 		{
 			"offsets": [
-				23,
-				50
-			],
-			"indices": [],
-			"fps": 24,
-			"anim": "danceLeft",
-			"loop": false,
-			"name": "R_DanceLeft-Alt"
-		},
-		{
-			"offsets": [
 				18,
-				62
+				65
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 15,
 			"anim": "phew",
-			"loop": false,
+			"indices": [],
 			"name": "R_Phew"
 		},
 		{
@@ -49,10 +27,10 @@
 				-120,
 				50
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "singRIGHT",
-			"loop": false,
+			"indices": [],
 			"name": "R_Right_Alt"
 		},
 		{
@@ -60,10 +38,10 @@
 				45,
 				-168
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "singDOWN",
-			"loop": false,
+			"indices": [],
 			"name": "R_Down_Alt"
 		},
 		{
@@ -71,18 +49,62 @@
 				-43,
 				78
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "singUP",
-			"loop": false,
+			"indices": [],
 			"name": "R_Up_Alt"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				9,
+				50
+			],
+			"anim": "danceRight",
+			"fps": 24,
+			"name": "R_DanceRight ",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				23,
+				48
+			],
+			"anim": "danceLeft-alt",
+			"fps": 24,
+			"name": "R_DanceLeft-Alt",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				23,
+				50
+			],
+			"anim": "danceLeft",
+			"fps": 24,
+			"name": "R_DanceLeft ",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				47
+			],
+			"anim": "danceRight-alt",
+			"fps": 24,
+			"name": "R_DanceRight-Alt",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/Ramses_P2",
 	"position": [
 		-40,
-		-50
+		-30
 	],
 	"healthicon": "ramses",
 	"flip_x": false,

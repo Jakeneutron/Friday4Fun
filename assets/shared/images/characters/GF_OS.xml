@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="GF_OS.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="GF Dance Beat instance 10000" x="0" y="0" width="794" height="677" frameX="0" frameY="-15" frameWidth="794" frameHeight="692"/>
+	<SubTexture name="GF Dance Beat instance 10001" x="0" y="0" width="794" height="677" frameX="0" frameY="-15" frameWidth="794" frameHeight="692"/>
+	<SubTexture name="GF Dance Beat instance 10002" x="844" y="0" width="751" height="675" frameX="-19" frameY="-17" frameWidth="794" frameHeight="692"/>
+	<SubTexture name="GF Dance Beat instance 10003" x="1645" y="0" width="751" height="675" frameX="-19" frameY="-17" frameWidth="794" frameHeight="692"/>
+	<SubTexture name="GF Dance Beat instance 10004" x="2446" y="0" width="735" height="679" frameX="-27" frameY="-13" frameWidth="794" frameHeight="692"/>
+	<SubTexture name="GF Dance Beat instance 10005" x="3231" y="0" width="735" height="679" frameX="-27" frameY="-13" frameWidth="794" frameHeight="692"/>
+	<SubTexture name="GF Dance Beat instance 10006" x="4016" y="0" width="732" height="680" frameX="-28" frameY="-12" frameWidth="794" frameHeight="692"/>
+	<SubTexture name="GF Dance Beat instance 10007" x="4798" y="0" width="732" height="691" frameX="-28" frameY="-1" frameWidth="794" frameHeight="692"/>
+	<SubTexture name="GF Dance Beat instance 10008" x="5580" y="0" width="730" height="691" frameX="-29" frameY="-1" frameWidth="794" frameHeight="692"/>
+	<SubTexture name="GF Dance Beat instance 10009" x="5580" y="0" width="730" height="691" frameX="-29" frameY="-1" frameWidth="794" frameHeight="692"/>
+	<SubTexture name="GF Dance Beat instance 10010" x="6360" y="0" width="730" height="692" frameX="-29" frameY="0" frameWidth="794" frameHeight="692"/>
+	<SubTexture name="GF Dance Beat instance 10011" x="6360" y="0" width="730" height="692" frameX="-29" frameY="0" frameWidth="794" frameHeight="692"/>
+	<SubTexture name="GF Dance Beat instance 10012" x="6360" y="0" width="730" height="692" frameX="-29" frameY="0" frameWidth="794" frameHeight="692"/>
+	<SubTexture name="GF Dance Beat instance 10013" x="7140" y="0" width="730" height="691" frameX="-29" frameY="-1" frameWidth="794" frameHeight="692"/>
+	<SubTexture name="GF Dance Beat instance 10014" x="7140" y="0" width="730" height="691" frameX="-29" frameY="-1" frameWidth="794" frameHeight="692"/>
+	<SubTexture name="GF Dance Beat instance 10015" x="0" y="742" width="794" height="680" frameX="0" frameY="-12" frameWidth="794" frameHeight="692"/>
+	<SubTexture name="GF Dance Beat instance 10016" x="0" y="742" width="794" height="680" frameX="0" frameY="-12" frameWidth="794" frameHeight="692"/>
+	<SubTexture name="GF Dance Beat instance 10017" x="844" y="742" width="751" height="680" frameX="-19" frameY="-12" frameWidth="794" frameHeight="692"/>
+	<SubTexture name="GF Dance Beat instance 10018" x="1645" y="742" width="751" height="680" frameX="-19" frameY="-12" frameWidth="794" frameHeight="692"/>
+	<SubTexture name="GF Dance Beat instance 10019" x="2446" y="742" width="735" height="680" frameX="-27" frameY="-12" frameWidth="794" frameHeight="692"/>
+	<SubTexture name="GF Dance Beat instance 10020" x="3231" y="742" width="735" height="680" frameX="-27" frameY="-12" frameWidth="794" frameHeight="692"/>
+	<SubTexture name="GF Dance Beat instance 10021" x="4016" y="742" width="732" height="682" frameX="-28" frameY="-10" frameWidth="794" frameHeight="692"/>
+	<SubTexture name="GF Dance Beat instance 10022" x="4798" y="742" width="732" height="686" frameX="-28" frameY="-6" frameWidth="794" frameHeight="692"/>
+	<SubTexture name="GF Dance Beat instance 10023" x="5580" y="742" width="730" height="686" frameX="-29" frameY="-6" frameWidth="794" frameHeight="692"/>
+	<SubTexture name="GF Dance Beat instance 10024" x="5580" y="742" width="730" height="686" frameX="-29" frameY="-6" frameWidth="794" frameHeight="692"/>
+	<SubTexture name="GF Dance Beat instance 10025" x="6360" y="742" width="730" height="686" frameX="-29" frameY="-6" frameWidth="794" frameHeight="692"/>
+	<SubTexture name="GF Dance Beat instance 10026" x="6360" y="742" width="730" height="686" frameX="-29" frameY="-6" frameWidth="794" frameHeight="692"/>
+	<SubTexture name="GF Dance Beat instance 10027" x="6360" y="742" width="730" height="686" frameX="-29" frameY="-6" frameWidth="794" frameHeight="692"/>
+	<SubTexture name="GF Dance Beat instance 10028" x="7140" y="742" width="730" height="685" frameX="-29" frameY="-7" frameWidth="794" frameHeight="692"/>
+	<SubTexture name="GF Dance Beat instance 10029" x="7140" y="742" width="730" height="685" frameX="-29" frameY="-7" frameWidth="794" frameHeight="692"/>
+	<SubTexture name="GF_CheerW instance 10000" x="0" y="1478" width="719" height="698" frameX="-5" frameY="0" frameWidth="729" frameHeight="698"/>
+	<SubTexture name="GF_CheerW instance 10001" x="0" y="1478" width="719" height="698" frameX="-5" frameY="0" frameWidth="729" frameHeight="698"/>
+	<SubTexture name="GF_CheerW instance 10002" x="769" y="1478" width="729" height="692" frameX="0" frameY="-3" frameWidth="729" frameHeight="698"/>
+	<SubTexture name="GF_CheerW instance 10003" x="769" y="1478" width="729" height="692" frameX="0" frameY="-3" frameWidth="729" frameHeight="698"/>
+	<SubTexture name="GF_CheerW instance 10004" x="769" y="1478" width="729" height="692" frameX="0" frameY="-3" frameWidth="729" frameHeight="698"/>
+	<SubTexture name="GF_CheerW instance 10005" x="769" y="1478" width="729" height="692" frameX="0" frameY="-3" frameWidth="729" frameHeight="698"/>
+	<SubTexture name="GF_CheerW instance 10006" x="769" y="1478" width="729" height="692" frameX="0" frameY="-3" frameWidth="729" frameHeight="698"/>
+	<SubTexture name="GF_CheerW instance 10007" x="769" y="1478" width="729" height="692" frameX="0" frameY="-3" frameWidth="729" frameHeight="698"/>
+	<SubTexture name="GF_CheerW instance 10008" x="769" y="1478" width="729" height="692" frameX="0" frameY="-3" frameWidth="729" frameHeight="698"/>
+	<SubTexture name="GF_CheerW instance 10009" x="769" y="1478" width="729" height="692" frameX="0" frameY="-3" frameWidth="729" frameHeight="698"/>
+	<SubTexture name="GF_CheerW instance 10010" x="769" y="1478" width="729" height="692" frameX="0" frameY="-3" frameWidth="729" frameHeight="698"/>
+	<SubTexture name="GF_CheerW instance 10011" x="769" y="1478" width="729" height="692" frameX="0" frameY="-3" frameWidth="729" frameHeight="698"/>
+	<SubTexture name="GF_CheerW instance 10012" x="769" y="1478" width="729" height="692" frameX="0" frameY="-3" frameWidth="729" frameHeight="698"/>
+	<SubTexture name="GF_CheerW instance 10013" x="769" y="1478" width="729" height="692" frameX="0" frameY="-3" frameWidth="729" frameHeight="698"/>
+	<SubTexture name="GF_CheerW instance 10014" x="769" y="1478" width="729" height="692" frameX="0" frameY="-3" frameWidth="729" frameHeight="698"/>
+	<SubTexture name="GF_CheerW instance 10015" x="769" y="1478" width="729" height="692" frameX="0" frameY="-3" frameWidth="729" frameHeight="698"/>
+	<SubTexture name="GF_CheerW instance 10016" x="769" y="1478" width="729" height="692" frameX="0" frameY="-3" frameWidth="729" frameHeight="698"/>
+	<SubTexture name="GF_CheerW instance 10017" x="769" y="1478" width="729" height="692" frameX="0" frameY="-3" frameWidth="729" frameHeight="698"/>
+	<SubTexture name="GF_CheerW instance 10018" x="769" y="1478" width="729" height="692" frameX="0" frameY="-3" frameWidth="729" frameHeight="698"/>
+	<SubTexture name="GF_CheerW instance 10019" x="769" y="1478" width="729" height="692" frameX="0" frameY="-3" frameWidth="729" frameHeight="698"/>
+	<SubTexture name="GF_CheerW instance 10020" x="769" y="1478" width="729" height="692" frameX="0" frameY="-3" frameWidth="729" frameHeight="698"/>
+	<SubTexture name="GF_CheerW instance 10021" x="0" y="1478" width="719" height="698" frameX="-5" frameY="0" frameWidth="729" frameHeight="698"/>
+	<SubTexture name="GF_CheerW instance 10022" x="0" y="1478" width="719" height="698" frameX="-5" frameY="0" frameWidth="729" frameHeight="698"/>
+	<SubTexture name="GF_CheerW instance 10023" x="769" y="1478" width="729" height="692" frameX="0" frameY="-3" frameWidth="729" frameHeight="698"/>
+	<SubTexture name="GF_CheerW instance 10024" x="769" y="1478" width="729" height="692" frameX="0" frameY="-3" frameWidth="729" frameHeight="698"/>
+	<SubTexture name="GF_CheerW instance 10025" x="769" y="1478" width="729" height="692" frameX="0" frameY="-3" frameWidth="729" frameHeight="698"/>
+	<SubTexture name="GF_CheerW instance 10026" x="769" y="1478" width="729" height="692" frameX="0" frameY="-3" frameWidth="729" frameHeight="698"/>
+	<SubTexture name="GF_CheerW instance 10027" x="769" y="1478" width="729" height="692" frameX="0" frameY="-3" frameWidth="729" frameHeight="698"/>
+	<SubTexture name="GF_CheerW instance 10028" x="769" y="1478" width="729" height="692" frameX="0" frameY="-3" frameWidth="729" frameHeight="698"/>
+	<SubTexture name="GF_CheerW instance 10029" x="769" y="1478" width="729" height="692" frameX="0" frameY="-3" frameWidth="729" frameHeight="698"/>
+	<SubTexture name="gf_sadw instance 10000" x="1548" y="1478" width="730" height="670" frameX="0" frameY="-3" frameWidth="730" frameHeight="673"/>
+	<SubTexture name="gf_sadw instance 10001" x="1548" y="1478" width="730" height="670" frameX="0" frameY="-3" frameWidth="730" frameHeight="673"/>
+	<SubTexture name="gf_sadw instance 10002" x="2328" y="1478" width="730" height="673"/>
+	<SubTexture name="gf_sadw instance 10003" x="2328" y="1478" width="730" height="673"/>
+	<SubTexture name="gf_sadw instance 10004" x="3108" y="1478" width="730" height="673"/>
+	<SubTexture name="gf_sadw instance 10005" x="3108" y="1478" width="730" height="673"/>
+	<SubTexture name="gf_sadw instance 10006" x="3888" y="1478" width="730" height="673"/>
+	<SubTexture name="gf_sadw instance 10007" x="3888" y="1478" width="730" height="673"/>
+	<SubTexture name="gf_sadw instance 10008" x="4668" y="1478" width="730" height="673"/>
+	<SubTexture name="gf_sadw instance 10009" x="4668" y="1478" width="730" height="673"/>
+	<SubTexture name="gf_sadw instance 10010" x="2328" y="1478" width="730" height="673"/>
+	<SubTexture name="gf_sadw instance 10011" x="2328" y="1478" width="730" height="673"/>
+	<SubTexture name="gf_sadw instance 10012" x="3108" y="1478" width="730" height="673"/>
+	<SubTexture name="gf_sadw instance 10013" x="3108" y="1478" width="730" height="673"/>
+	<SubTexture name="gf_sadw instance 10014" x="3888" y="1478" width="730" height="673"/>
+	<SubTexture name="gf_sadw instance 10015" x="3888" y="1478" width="730" height="673"/>
+	<SubTexture name="gf_sadw instance 10016" x="4668" y="1478" width="730" height="673"/>
+	<SubTexture name="gf_sadw instance 10017" x="4668" y="1478" width="730" height="673"/>
+	<SubTexture name="gf_sadw instance 10018" x="2328" y="1478" width="730" height="673"/>
+	<SubTexture name="gf_sadw instance 10019" x="2328" y="1478" width="730" height="673"/>
+	<SubTexture name="gf_sadw instance 10020" x="3108" y="1478" width="730" height="673"/>
+	<SubTexture name="gf_sadw instance 10021" x="3108" y="1478" width="730" height="673"/>
+	<SubTexture name="gf_sadw instance 10022" x="3888" y="1478" width="730" height="673"/>
+	<SubTexture name="gf_sadw instance 10023" x="3888" y="1478" width="730" height="673"/>
+	<SubTexture name="gf_sadw instance 10024" x="4668" y="1478" width="730" height="673"/>
+	<SubTexture name="gf_sadw instance 10025" x="4668" y="1478" width="730" height="673"/>
+	<SubTexture name="gf_sadw instance 10026" x="2328" y="1478" width="730" height="673"/>
+	<SubTexture name="gf_sadw instance 10027" x="2328" y="1478" width="730" height="673"/>
+	<SubTexture name="gf_sadw instance 10028" x="3108" y="1478" width="730" height="673"/>
+	<SubTexture name="gf_sadw instance 10029" x="3108" y="1478" width="730" height="673"/>
+</TextureAtlas>
