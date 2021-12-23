@@ -1696,6 +1696,7 @@ class PlayState extends MusicBeatState
 		{
 			// FlxG.log.add(i);
 			var babyArrow:StrumNote = new StrumNote(ClientPrefs.middleScroll ? STRUM_X_MIDDLESCROLL : STRUM_X, strumLine.y, i);
+			//var loadingArrow:FlxSprite;
 
 			var skin:String = 'NOTE_assets';
 			if(SONG.arrowSkin != null && SONG.arrowSkin.length > 1) skin = SONG.arrowSkin;
@@ -1714,6 +1715,8 @@ class PlayState extends MusicBeatState
 				babyArrow.updateHitbox();
 				babyArrow.antialiasing = false;
 
+
+
 				switch (Math.abs(i))
 				{
 					case 0:
@@ -1721,21 +1724,30 @@ class PlayState extends MusicBeatState
 						babyArrow.animation.add('static', [0]);
 						babyArrow.animation.add('pressed', [4, 8], 12, false);
 						babyArrow.animation.add('confirm', [12, 16], 24, false);
+
+						
+
 					case 1:
 						babyArrow.x += Note.swagWidth * 1;
 						babyArrow.animation.add('static', [1]);
 						babyArrow.animation.add('pressed', [5, 9], 12, false);
 						babyArrow.animation.add('confirm', [13, 17], 24, false);
+
+						
 					case 2:
 						babyArrow.x += Note.swagWidth * 2;
 						babyArrow.animation.add('static', [2]);
 						babyArrow.animation.add('pressed', [6, 10], 12, false);
 						babyArrow.animation.add('confirm', [14, 18], 12, false);
+
+						
 					case 3:
 						babyArrow.x += Note.swagWidth * 3;
 						babyArrow.animation.add('static', [3]);
 						babyArrow.animation.add('pressed', [7, 11], 12, false);
 						babyArrow.animation.add('confirm', [15, 19], 24, false);
+
+						
 				}
 			}
 			else
@@ -1749,6 +1761,10 @@ class PlayState extends MusicBeatState
 				babyArrow.antialiasing = ClientPrefs.globalAntialiasing;
 				babyArrow.setGraphicSize(Std.int(babyArrow.width * 0.7));
 
+				/*loadingArrow.frames = Paths.getSparrowAtlas("Loading notes");
+				loadingArrow.antialiasing = ClientPrefs.globalAntialiasing;
+				loadingArrow.setGraphicSize(Std.int(babyArrow.width * 0.7));*/
+
 				switch (Math.abs(i))
 				{
 					case 0:
@@ -1756,26 +1772,43 @@ class PlayState extends MusicBeatState
 						babyArrow.animation.addByPrefix('static', 'arrowLEFT');
 						babyArrow.animation.addByPrefix('pressed', 'left press', 24, false);
 						babyArrow.animation.addByPrefix('confirm', 'left confirm', 24, false);
+
+						//loadingArrow.x += Note.swagWidth * 0;
+						//loadingArrow.animation.addByPrefix('loading', 'purple loading', 24, false);
 					case 1:
 						babyArrow.x += Note.swagWidth * 1;
 						babyArrow.animation.addByPrefix('static', 'arrowDOWN');
 						babyArrow.animation.addByPrefix('pressed', 'down press', 24, false);
 						babyArrow.animation.addByPrefix('confirm', 'down confirm', 24, false);
+
+						//loadingArrow.x += Note.swagWidth * 1;
+						//loadingArrow.animation.addByPrefix('loading', 'blue loading', 24, false);
 					case 2:
 						babyArrow.x += Note.swagWidth * 2;
 						babyArrow.animation.addByPrefix('static', 'arrowUP');
 						babyArrow.animation.addByPrefix('pressed', 'up press', 24, false);
 						babyArrow.animation.addByPrefix('confirm', 'up confirm', 24, false);
+
+						//loadingArrow.x += Note.swagWidth * 2;
+						//loadingArrow.animation.addByPrefix('loading', 'green loading', 24, false);
 					case 3:
 						babyArrow.x += Note.swagWidth * 3;
 						babyArrow.animation.addByPrefix('static', 'arrowRIGHT');
 						babyArrow.animation.addByPrefix('pressed', 'right press', 24, false);
 						babyArrow.animation.addByPrefix('confirm', 'right confirm', 24, false);
+
+						//loadingArrow.x += Note.swagWidth * 3;
+						//loadingArrow.animation.addByPrefix('loading', 'red loading', 24, false);
 				}
 			}
 
 			babyArrow.updateHitbox();
 			babyArrow.scrollFactor.set();
+			/*loadingArrow.updateHitbox();
+			loadingArrow.scrollFactor.set();*/
+
+			//loadingArrow.alpha = 0;
+
 
 			if (!isStoryMode)
 			{
