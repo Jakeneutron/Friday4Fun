@@ -24,6 +24,13 @@ class CreditsState extends MusicBeatState
 	private var iconArray:Array<AttachedSprite> = [];
 
 	private static var creditsStuff:Array<Dynamic> = [ //Name - Icon name - Description - Link - BG Color
+		['Funkidelic Team'],
+		['Jakeneutron',		'jakeneutron',		'Director/Animator/Composer/VA/Charter',				'https://www.youtube.com/channel/UC6_L7fnczNalFZyBthUE9oA',	0xFFFFA500],
+		['JGlazey',			'glazey',			'Background Artist',									'https://twitter.com/jGlazey',		0xFFFFA500],
+		['ILuvGemz',		'iluvgemz',			'Charter',												'https://twitter.com/gemz_luv',	0xFFFFA500],
+		['NOMIE',			'nomie',			'Background Artist',									'https://twitter.com/NomDomeStudios',		0xFFFFA500],
+		['Shou',			'shou',				'Background Artist',									'https://twitter.com/TheSkullHare',		0xFFFFA500],
+		[''],
 		['Psych Engine Team'],
 		['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',					'https://twitter.com/Shadow_Mario_',	0xFFFFDD33],
 		['RiverOaken',			'riveroaken',		'Main Artist/Animator of Psych Engine',				'https://twitter.com/river_oaken',		0xFFC30085],

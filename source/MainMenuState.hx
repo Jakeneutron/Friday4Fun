@@ -182,6 +182,12 @@ class MainMenuState extends MusicBeatState
 					CoolUtil.browserLoad('https://ninja-muffin24.itch.io/funkin');
 				}
 				else
+					if (optionShit[curSelected] == 'awards')
+						{
+							FlxG.sound.play(Paths.sound('confirmEle'));
+							CoolUtil.browserLoad('https://www.makeship.com/products/ele-ai-plush');
+						}
+						else
 				{
 					selectedSomethin = true;
 					FlxG.sound.play(Paths.sound('confirmMenu'));
@@ -212,8 +218,8 @@ class MainMenuState extends MusicBeatState
 										MusicBeatState.switchState(new StoryMenuState());
 									case 'freeplay':
 										MusicBeatState.switchState(new FreeplayState());
-									case 'awards':
-										MusicBeatState.switchState(new AchievementsMenuState());
+									/*case 'awards':
+										MusicBeatState.switchState(new AchievementsMenuState());*/
 									case 'credits':
 										MusicBeatState.switchState(new CreditsState());
 									case 'options':

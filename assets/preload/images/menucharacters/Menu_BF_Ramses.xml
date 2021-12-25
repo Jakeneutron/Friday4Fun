@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Menu_BF_Ramses.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="BF HEY!! copy instance 10000" x="0" y="0" width="394" height="413" frameX="0" frameY="0" frameWidth="415" frameHeight="415"/>
+	<SubTexture name="BF HEY!! copy instance 10001" x="0" y="0" width="394" height="413" frameX="0" frameY="0" frameWidth="415" frameHeight="415"/>
+	<SubTexture name="BF HEY!! copy instance 10002" x="444" y="0" width="413" height="407" frameX="0" frameY="-8" frameWidth="415" frameHeight="415"/>
+	<SubTexture name="BF HEY!! copy instance 10003" x="444" y="0" width="413" height="407" frameX="0" frameY="-8" frameWidth="415" frameHeight="415"/>
+	<SubTexture name="BF HEY!! copy instance 10004" x="907" y="0" width="415" height="409" frameX="0" frameY="-6" frameWidth="415" frameHeight="415"/>
+	<SubTexture name="BF HEY!! copy instance 10005" x="907" y="0" width="415" height="409" frameX="0" frameY="-6" frameWidth="415" frameHeight="415"/>
+	<SubTexture name="BF HEY!! copy instance 10006" x="907" y="0" width="415" height="409" frameX="0" frameY="-6" frameWidth="415" frameHeight="415"/>
+	<SubTexture name="BF HEY!! copy instance 10007" x="907" y="0" width="415" height="409" frameX="0" frameY="-6" frameWidth="415" frameHeight="415"/>
+	<SubTexture name="BF HEY!! copy instance 10008" x="907" y="0" width="415" height="409" frameX="0" frameY="-6" frameWidth="415" frameHeight="415"/>
+	<SubTexture name="BF HEY!! copy instance 10009" x="907" y="0" width="415" height="409" frameX="0" frameY="-6" frameWidth="415" frameHeight="415"/>
+	<SubTexture name="BF HEY!! copy instance 10010" x="907" y="0" width="415" height="409" frameX="0" frameY="-6" frameWidth="415" frameHeight="415"/>
+	<SubTexture name="BF HEY!! copy instance 10011" x="907" y="0" width="415" height="409" frameX="0" frameY="-6" frameWidth="415" frameHeight="415"/>
+	<SubTexture name="BF HEY!! copy instance 10012" x="907" y="0" width="415" height="409" frameX="0" frameY="-6" frameWidth="415" frameHeight="415"/>
+	<SubTexture name="BF HEY!! copy instance 10013" x="907" y="0" width="415" height="409" frameX="0" frameY="-6" frameWidth="415" frameHeight="415"/>
+	<SubTexture name="BF HEY!! copy instance 10014" x="907" y="0" width="415" height="409" frameX="0" frameY="-6" frameWidth="415" frameHeight="415"/>
+	<SubTexture name="BF HEY!! copy instance 10015" x="907" y="0" width="415" height="409" frameX="0" frameY="-6" frameWidth="415" frameHeight="415"/>
+	<SubTexture name="BF HEY!! copy instance 10016" x="907" y="0" width="415" height="409" frameX="0" frameY="-6" frameWidth="415" frameHeight="415"/>
+	<SubTexture name="BF HEY!! copy instance 10017" x="907" y="0" width="415" height="409" frameX="0" frameY="-6" frameWidth="415" frameHeight="415"/>
+	<SubTexture name="BF HEY!! copy instance 10018" x="907" y="0" width="415" height="409" frameX="0" frameY="-6" frameWidth="415" frameHeight="415"/>
+	<SubTexture name="BF HEY!! copy instance 10019" x="907" y="0" width="415" height="409" frameX="0" frameY="-6" frameWidth="415" frameHeight="415"/>
+	<SubTexture name="BF HEY!! copy instance 10020" x="907" y="0" width="415" height="409" frameX="0" frameY="-6" frameWidth="415" frameHeight="415"/>
+	<SubTexture name="BF HEY!! copy instance 10021" x="907" y="0" width="415" height="409" frameX="0" frameY="-6" frameWidth="415" frameHeight="415"/>
+	<SubTexture name="BF HEY!! copy instance 10022" x="907" y="0" width="415" height="409" frameX="0" frameY="-6" frameWidth="415" frameHeight="415"/>
+	<SubTexture name="BF HEY!! copy instance 10023" x="907" y="0" width="415" height="409" frameX="0" frameY="-6" frameWidth="415" frameHeight="415"/>
+	<SubTexture name="BF HEY!! copy instance 10024" x="907" y="0" width="415" height="409" frameX="0" frameY="-6" frameWidth="415" frameHeight="415"/>
+	<SubTexture name="BF HEY!! copy instance 10025" x="907" y="0" width="415" height="409" frameX="0" frameY="-6" frameWidth="415" frameHeight="415"/>
+	<SubTexture name="BF idle dance copy instance 10000" x="1372" y="0" width="405" height="388" frameX="-1" frameY="-20" frameWidth="410" frameHeight="409"/>
+	<SubTexture name="BF idle dance copy instance 10001" x="1372" y="0" width="405" height="388" frameX="-1" frameY="-20" frameWidth="410" frameHeight="409"/>
+	<SubTexture name="BF idle dance copy instance 10002" x="1827" y="0" width="407" height="390" frameX="0" frameY="-19" frameWidth="410" frameHeight="409"/>
+	<SubTexture name="BF idle dance copy instance 10003" x="1827" y="0" width="407" height="390" frameX="0" frameY="-19" frameWidth="410" frameHeight="409"/>
+	<SubTexture name="BF idle dance copy instance 10004" x="2284" y="0" width="406" height="396" frameX="-2" frameY="-13" frameWidth="410" frameHeight="409"/>
+	<SubTexture name="BF idle dance copy instance 10005" x="2284" y="0" width="406" height="396" frameX="-2" frameY="-13" frameWidth="410" frameHeight="409"/>
+	<SubTexture name="BF idle dance copy instance 10006" x="2740" y="0" width="409" height="408" frameX="-1" frameY="-1" frameWidth="410" frameHeight="409"/>
+	<SubTexture name="BF idle dance copy instance 10007" x="2740" y="0" width="409" height="408" frameX="-1" frameY="-1" frameWidth="410" frameHeight="409"/>
+	<SubTexture name="BF idle dance copy instance 10008" x="3199" y="0" width="409" height="409" frameX="-1" frameY="0" frameWidth="410" frameHeight="409"/>
+	<SubTexture name="BF idle dance copy instance 10009" x="3199" y="0" width="409" height="409" frameX="-1" frameY="0" frameWidth="410" frameHeight="409"/>
+	<SubTexture name="BF idle dance copy instance 10010" x="3199" y="0" width="409" height="409" frameX="-1" frameY="0" frameWidth="410" frameHeight="409"/>
+	<SubTexture name="BF idle dance copy instance 10011" x="3199" y="0" width="409" height="409" frameX="-1" frameY="0" frameWidth="410" frameHeight="409"/>
+	<SubTexture name="BF idle dance copy instance 10012" x="3199" y="0" width="409" height="409" frameX="-1" frameY="0" frameWidth="410" frameHeight="409"/>
+	<SubTexture name="BF idle dance copy instance 10013" x="3199" y="0" width="409" height="409" frameX="-1" frameY="0" frameWidth="410" frameHeight="409"/>
+</TextureAtlas>

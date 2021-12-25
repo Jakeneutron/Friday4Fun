@@ -1,0 +1,158 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "normal",
+			"text": "wow babe ready to work out?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "ramses",
+			"boxState": "normal",
+			"expression": "normal",
+			"text": "Little dude! Is that you??"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "omg himbo"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "ramses",
+			"boxState": "normal",
+			"expression": "normal",
+			"text": "How have you been dude!? I haven't seen you in years!"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "himmnnnonoonbboooo"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "ramses",
+			"boxState": "normal",
+			"expression": "neutral",
+			"text": "Uhhhh... you okay, little dude?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "mmmmmmmm man"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "ramses",
+			"boxState": "normal",
+			"expression": "upset",
+			"text": "bro?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "why are you hot?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "ramses",
+			"boxState": "normal",
+			"expression": "flushed",
+			"text": "WHAT!?! I'm nOt-"
+		},
+		{
+			"speed": 0.14,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "CAP!"
+		},
+		{
+			"speed": 0.13,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "SUCH CAP!!"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "ramses",
+			"boxState": "normal",
+			"expression": "upset",
+			"text": "look, little dude..."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "got a boyfriend?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "ramses",
+			"boxState": "angry",
+			"expression": "scared",
+			"text": "!?!?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "ramses",
+			"boxState": "normal",
+			"expression": "scared",
+			"text": "n-no???"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "what about that guy you used to always flirt with??? What happen to him?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "ramses",
+			"boxState": "normal",
+			"expression": "flushed",
+			"text": "I mean--- uhh--- well--"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "ramses",
+			"boxState": "normal",
+			"expression": "blushing",
+			"text": "we're just..."
+		},
+		{
+			"speed": 0.085,
+			"portrait": "ramses",
+			"boxState": "normal",
+			"expression": "sad",
+			"text": "friends."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "omg no you're not, you fruits"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "ramses",
+			"boxState": "normal",
+			"expression": "upset",
+			"text": "okay, pico simp"
+		}
+	]
+}

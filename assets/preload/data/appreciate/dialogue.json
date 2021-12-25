@@ -1,0 +1,214 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.025,
+			"portrait": "bf-os",
+			"boxState": "normal",
+			"expression": "flushed",
+			"text": "huh..."
+		},
+		{
+			"speed": 0.03,
+			"portrait": "bf-os",
+			"boxState": "normal",
+			"expression": "neutral",
+			"text": "hey babe this desktop your dad got you..."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf-os",
+			"boxState": "normal",
+			"expression": "flushed",
+			"text": "did he happen to..."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "gf-os",
+			"boxState": "normal",
+			"expression": "neutral",
+			"text": "baby, I honestly don't know anymore."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "gf-os",
+			"boxState": "normal",
+			"expression": "upset",
+			"text": "GOD, of course my dad can't just get me a normal laptop or something for college."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "gf-os",
+			"boxState": "normal",
+			"expression": "upset",
+			"text": "ALWAYS has to be cursed or---"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "ele",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Hello! Welcome to Ally's Computer!"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf-os",
+			"boxState": "normal",
+			"expression": "scared",
+			"text": "AAAA!"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "gf-os",
+			"boxState": "normal",
+			"expression": "scared",
+			"text": "AAAAAH!!!"
+		},
+		{
+			"speed": 0.03,
+			"portrait": "ele",
+			"boxState": "normal",
+			"expression": "neutral",
+			"text": "You two must be new programs that were just downloaded!"
+		},
+		{
+			"speed": 0.035,
+			"portrait": "ele",
+			"boxState": "normal",
+			"expression": "blushing",
+			"text": "It is very nice to meet you! I'm Ele.OS! The operating system for this computer!"
+		},
+		{
+			"speed": 0.03,
+			"portrait": "ele",
+			"boxState": "normal",
+			"expression": "normal",
+			"text": "I basically maintain this whole place, so you ever need anything, feel free to reach out to me!"
+		},
+		{
+			"speed": 0.075,
+			"portrait": "bf-os",
+			"boxState": "normal",
+			"expression": "blushing",
+			"text": "Hah.. heh... programs..."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "gf-os",
+			"boxState": "normal",
+			"expression": "sad",
+			"text": "Excuse me, Ele.OS? We're uhh--- not programs haha. We're-"
+		},
+		{
+			"speed": 0.03,
+			"portrait": "ele",
+			"boxState": "normal",
+			"expression": "sad",
+			"text": "Not programs? Oh dear... You don't really look or act like regular media files..."
+		},
+		{
+			"speed": 0.02,
+			"portrait": "bf-os",
+			"boxState": "normal",
+			"expression": "flushed",
+			"text": "wait what do media files look li-"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "ele",
+			"boxState": "normal",
+			"expression": "upset",
+			"text": "You're not Malware are you???"
+		},
+		{
+			"speed": 0.025,
+			"portrait": "gf-os",
+			"boxState": "normal",
+			"expression": "scared",
+			"text": "NO! Nononono! We're not Malware! W-we--"
+		},
+		{
+			"speed": 0.02,
+			"portrait": "bf-os",
+			"boxState": "normal",
+			"expression": "neutral",
+			"text": "Wait if we were, would we tell you?"
+		},
+		{
+			"speed": 0.03,
+			"portrait": "gf-os",
+			"boxState": "normal",
+			"expression": "upset",
+			"text": "Boyfriend shut the fuck uP!??"
+		},
+		{
+			"speed": 0.03,
+			"portrait": "bf-os",
+			"boxState": "normal",
+			"expression": "blushing",
+			"text": "GENUINE QUESTION BABE, SORRY, I'VE NEVER TALKED TO AN OPERATING SYSTEM BEFORE!!"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "ele",
+			"boxState": "normal",
+			"expression": "flushed",
+			"text": "hmmm... you don't act like Malware either......."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "gf-os",
+			"boxState": "normal",
+			"expression": "normal",
+			"text": "Yeah, haha. Like I was saying, We're actually just people-"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "ele",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "I know! I'll do a quick diagnostics test on you two!"
+		},
+		{
+			"speed": 0.085,
+			"portrait": "gf-os",
+			"boxState": "normal",
+			"expression": "flushed",
+			"text": "... a what?"
+		},
+		{
+			"speed": 0.035,
+			"portrait": "bf-os",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "She's gonna examine us to identify our traits and such, babe!"
+		},
+		{
+			"speed": 0.065,
+			"portrait": "gf-os",
+			"boxState": "normal",
+			"expression": "flushed",
+			"text": "I-Is that gonna hurt?..."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "ele",
+			"boxState": "normal",
+			"expression": "blushing",
+			"text": "No no! It's typically pretty easy! Just follow my lead!"
+		},
+		{
+			"speed": 0.03,
+			"portrait": "bf-os",
+			"boxState": "angry",
+			"expression": "normal",
+			"text": "BABE!!!BABE!!!!! ShE'S PULLING oUT a  MIC!!\\nBABE!!!"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "gf-os",
+			"boxState": "normal",
+			"expression": "normal",
+			"text": "well aren't we lucky, lmao"
+		}
+	]
+}

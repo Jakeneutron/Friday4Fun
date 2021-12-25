@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Menu_Ele.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="EleMenu instance 10000" x="0" y="0" width="480" height="489" frameX="-11" frameY="-6" frameWidth="506" frameHeight="495"/>
+	<SubTexture name="EleMenu instance 10001" x="0" y="0" width="480" height="489" frameX="-11" frameY="-6" frameWidth="506" frameHeight="495"/>
+	<SubTexture name="EleMenu instance 10002" x="530" y="0" width="482" height="494" frameX="-8" frameY="-1" frameWidth="506" frameHeight="495"/>
+	<SubTexture name="EleMenu instance 10003" x="530" y="0" width="482" height="494" frameX="-8" frameY="-1" frameWidth="506" frameHeight="495"/>
+	<SubTexture name="EleMenu instance 10004" x="1062" y="0" width="503" height="494" frameX="-3" frameY="-1" frameWidth="506" frameHeight="495"/>
+	<SubTexture name="EleMenu instance 10005" x="1062" y="0" width="503" height="494" frameX="-3" frameY="-1" frameWidth="506" frameHeight="495"/>
+	<SubTexture name="EleMenu instance 10006" x="1615" y="0" width="498" height="495" frameX="0" frameY="0" frameWidth="506" frameHeight="495"/>
+	<SubTexture name="EleMenu instance 10007" x="1615" y="0" width="498" height="495" frameX="0" frameY="0" frameWidth="506" frameHeight="495"/>
+	<SubTexture name="EleMenu instance 10008" x="2163" y="0" width="495" height="495" frameX="0" frameY="0" frameWidth="506" frameHeight="495"/>
+	<SubTexture name="EleMenu instance 10009" x="2163" y="0" width="495" height="495" frameX="0" frameY="0" frameWidth="506" frameHeight="495"/>
+	<SubTexture name="EleMenu instance 10010" x="2163" y="0" width="495" height="495" frameX="0" frameY="0" frameWidth="506" frameHeight="495"/>
+	<SubTexture name="EleMenu instance 10011" x="2163" y="0" width="495" height="495" frameX="0" frameY="0" frameWidth="506" frameHeight="495"/>
+	<SubTexture name="EleMenu instance 10012" x="2163" y="0" width="495" height="495" frameX="0" frameY="0" frameWidth="506" frameHeight="495"/>
+</TextureAtlas>

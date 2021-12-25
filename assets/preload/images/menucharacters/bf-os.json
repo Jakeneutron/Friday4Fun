@@ -1,0 +1,10 @@
+{
+	"confirm_anim": "YEAH Menu",
+	"idle_anim": "BF Menu",
+	"position": [
+		68,
+		29
+	],
+	"scale": 0.8,
+	"image": "Menu_BF_EleOS"
+}

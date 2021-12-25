@@ -2,157 +2,241 @@
 	"dialogue": [
 		{
 			"speed": 0.05,
-			"portrait": "bf",
+			"portrait": "gfr",
 			"boxState": "normal",
 			"expression": "normal",
-			"text": "wow babe ready to work out?"
+			"text": "Wow! This place is... wow!"
 		},
 		{
 			"speed": 0.05,
-			"portrait": "ramses",
+			"portrait": "bfr",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Yeah yoooo, this place is pretty fancy!"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bfr",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Honestly has me pretty pumped up to start working out!"
+		},
+		{
+			"speed": 0.035,
+			"portrait": "gfr",
 			"boxState": "normal",
 			"expression": "normal",
-			"text": "Little dude! Is that you??"
+			"text": "Yeah fr!-- Actually that brings to mind a question. Why DID you suddenly choose recently to be interested in fitness and such?"
 		},
 		{
 			"speed": 0.05,
-			"portrait": "bf",
+			"portrait": "bfr",
 			"boxState": "normal",
-			"expression": "talk",
-			"text": "omg himbo"
+			"expression": "sad",
+			"text": "Whaaat? I workout, babe!"
 		},
 		{
 			"speed": 0.05,
-			"portrait": "ramses",
-			"boxState": "normal",
-			"expression": "normal",
-			"text": "How have you been dude!? I haven't seen you in years!"
-		},
-		{
-			"speed": 0.05,
-			"portrait": "bf",
-			"boxState": "normal",
-			"expression": "talk",
-			"text": "himmnnnonoonbboooo"
-		},
-		{
-			"speed": 0.05,
-			"portrait": "ramses",
-			"boxState": "normal",
-			"expression": "neutral",
-			"text": "Uhhhh... you okay, little dude?"
-		},
-		{
-			"speed": 0.05,
-			"portrait": "bf",
-			"boxState": "normal",
-			"expression": "talk",
-			"text": "mmmmmmmm man"
-		},
-		{
-			"speed": 0.05,
-			"portrait": "ramses",
-			"boxState": "normal",
-			"expression": "upset",
-			"text": "bro?"
-		},
-		{
-			"speed": 0.05,
-			"portrait": "bf",
-			"boxState": "normal",
-			"expression": "talk",
-			"text": "why are you hot?"
-		},
-		{
-			"speed": 0.05,
-			"portrait": "ramses",
-			"boxState": "normal",
-			"expression": "flushed",
-			"text": "WHAT!?! I'm nOt-"
-		},
-		{
-			"speed": 0.14,
-			"portrait": "bf",
-			"boxState": "normal",
-			"expression": "talk",
-			"text": "CAP!"
-		},
-		{
-			"speed": 0.13,
-			"portrait": "bf",
-			"boxState": "normal",
-			"expression": "talk",
-			"text": "SUCH CAP!!"
-		},
-		{
-			"speed": 0.05,
-			"portrait": "ramses",
-			"boxState": "normal",
-			"expression": "upset",
-			"text": "look, little dude..."
-		},
-		{
-			"speed": 0.05,
-			"portrait": "bf",
-			"boxState": "normal",
-			"expression": "talk",
-			"text": "got a boyfriend?"
-		},
-		{
-			"speed": 0.05,
-			"portrait": "ramses",
-			"boxState": "angry",
-			"expression": "scared",
-			"text": "!?!?"
-		},
-		{
-			"speed": 0.05,
-			"portrait": "ramses",
+			"portrait": "bfr",
 			"boxState": "normal",
 			"expression": "scared",
-			"text": "n-no???"
+			"text": "oh god have I been lackin'!?!"
 		},
 		{
 			"speed": 0.05,
-			"portrait": "bf",
-			"boxState": "normal",
-			"expression": "talk",
-			"text": "what about that guy you used to always flirt with??? What happen to him?"
-		},
-		{
-			"speed": 0.05,
-			"portrait": "ramses",
-			"boxState": "normal",
-			"expression": "flushed",
-			"text": "I mean--- uhh--- well--"
-		},
-		{
-			"speed": 0.05,
-			"portrait": "ramses",
+			"portrait": "gfr",
 			"boxState": "normal",
 			"expression": "blushing",
-			"text": "we're just..."
+			"text": "Babe no! I mean, you haven't invited me to the gym with you before!"
 		},
 		{
-			"speed": 0.085,
+			"speed": 0.04,
+			"portrait": "bfr",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Oh! Cause Ramses said I could bring a plus one!"
+		},
+		{
+			"speed": 0.035,
+			"portrait": "gfr",
+			"boxState": "normal",
+			"expression": "normal",
+			"text": "Oh yeah your highschool friend right? Well where is--"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "ramses",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Hey there little dude! You made it!"
+		},
+		{
+			"speed": 0.01,
+			"portrait": "gfr",
+			"boxState": "angry",
+			"expression": "scared",
+			"text": "HOLYFUCKINGSHITYOU'REHUGE---"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "gfr",
+			"boxState": "normal",
+			"expression": "blushing",
+			"text": "*cough* I mean--- sorry I---"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bfr",
+			"boxState": "angry",
+			"expression": "normal",
+			"text": "YOOOO!!! RAMSES!!!! HOW'VE YOU BEEN!?!"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bfr",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Babe! This the legend himself, haha! Ramses Jackson!!"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bfr",
+			"boxState": "normal",
+			"expression": "blushing",
+			"text": "Ramses! This is my Girlfriend!... Er--- uh Girlfriend!"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "ramses",
+			"boxState": "normal",
+			"expression": "normal",
+			"text": "Nice to meet you, Girlfriend! I've heard many great things about you! Love your outfit!"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "gfr",
+			"boxState": "normal",
+			"expression": "blushing",
+			"text": "Oh! haha--- thank you~!"
+		},
+		{
+			"speed": 0.05,
 			"portrait": "ramses",
 			"boxState": "normal",
 			"expression": "sad",
-			"text": "friends."
+			"text": "er--- hate to ask but what happened to that ginger you were dating a while back."
 		},
 		{
 			"speed": 0.05,
-			"portrait": "bf",
+			"portrait": "bfr",
+			"boxState": "normal",
+			"expression": "flushed",
+			"text": "h"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bfr",
+			"boxState": "normal",
+			"expression": "neutral",
+			"text": "Pico??? We haven't been dating since like junior year??"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "gfr",
 			"boxState": "normal",
 			"expression": "talk",
-			"text": "omg no you're not, you fruits"
+			"text": "Kinda funny the guy was later hired to try and assasinate you."
 		},
 		{
 			"speed": 0.05,
 			"portrait": "ramses",
 			"boxState": "normal",
+			"expression": "scared",
+			"text": "HE wHAT?!"
+		},
+		{
+			"speed": 0.01,
+			"portrait": "bfr",
+			"boxState": "normal",
+			"expression": "blushing",
+			"text": "long story, get into it later, y'all wanna start working out or what?!?!"
+		},
+		{
+			"speed": 0.04,
+			"portrait": "ramses",
+			"boxState": "normal",
+			"expression": "normal",
+			"text": "Yeah alright little dude! Hope you amped up your game since I last song battled with you!"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bfr",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Hell Yea!"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "gfr",
+			"boxState": "normal",
+			"expression": "flushed",
+			"text": "s--song--- w-wait"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "gfr",
+			"boxState": "normal",
 			"expression": "upset",
-			"text": "okay, pico simp"
+			"text": "Babe I thought we came to the gym to work out."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bfr",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Yes!"
+		},
+		{
+			"speed": 0.04,
+			"portrait": "gfr",
+			"boxState": "normal",
+			"expression": "upset",
+			"text": "But you two are just gonna sing and rap?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bfr",
+			"boxState": "normal",
+			"expression": "neutral",
+			"text": "Yes?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "gfr",
+			"boxState": "normal",
+			"expression": "flushed",
+			"text": "..."
+		},
+		{
+			"speed": 0.01,
+			"portrait": "gfr",
+			"boxState": "normal",
+			"expression": "upset",
+			"text": "TheN Why did we Get all DrESSED---"
+		},
+		{
+			"speed": 0.03,
+			"portrait": "gfr",
+			"boxState": "normal",
+			"expression": "neutral",
+			"text": "Nevermind, I'll get the speakers..."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "ramses",
+			"boxState": "normal",
+			"expression": "normal",
+			"text": "YOOO SHE BROUGHT SPEAKERS!? She's a keeper, bro."
 		}
 	]
 }

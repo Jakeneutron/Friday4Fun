@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="GFr_Dialogue.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="J_Angry instance 10000" x="0" y="0" width="434" height="571"/>
+	<SubTexture name="J_Angry instance 10001" x="0" y="0" width="434" height="571"/>
+	<SubTexture name="J_Angry instance 10002" x="0" y="0" width="434" height="571"/>
+	<SubTexture name="J_Angry instance 10003" x="0" y="0" width="434" height="571"/>
+	<SubTexture name="J_Angry_Talk instance 10000" x="484" y="0" width="432" height="555" frameX="-3" frameY="-11" frameWidth="446" frameHeight="589"/>
+	<SubTexture name="J_Angry_Talk instance 10001" x="484" y="0" width="432" height="555" frameX="-3" frameY="-11" frameWidth="446" frameHeight="589"/>
+	<SubTexture name="J_Angry_Talk instance 10002" x="966" y="0" width="441" height="589" frameX="-5" frameY="0" frameWidth="446" frameHeight="589"/>
+	<SubTexture name="J_Angry_Talk instance 10003" x="966" y="0" width="441" height="589" frameX="-5" frameY="0" frameWidth="446" frameHeight="589"/>
+	<SubTexture name="J_Angry_Talk instance 10004" x="1457" y="0" width="442" height="571" frameX="0" frameY="-7" frameWidth="446" frameHeight="589"/>
+	<SubTexture name="J_Angry_Talk instance 10005" x="1457" y="0" width="442" height="571" frameX="0" frameY="-7" frameWidth="446" frameHeight="589"/>
+	<SubTexture name="J_Blushing instance 10000" x="1949" y="0" width="434" height="571"/>
+	<SubTexture name="J_Blushing instance 10001" x="1949" y="0" width="434" height="571"/>
+	<SubTexture name="J_Blushing instance 10002" x="1949" y="0" width="434" height="571"/>
+	<SubTexture name="J_Blushing instance 10003" x="1949" y="0" width="434" height="571"/>
+	<SubTexture name="J_Blushing_Talk instance 10000" x="2433" y="0" width="432" height="555" frameX="-3" frameY="-11" frameWidth="446" frameHeight="589"/>
+	<SubTexture name="J_Blushing_Talk instance 10001" x="2433" y="0" width="432" height="555" frameX="-3" frameY="-11" frameWidth="446" frameHeight="589"/>
+	<SubTexture name="J_Blushing_Talk instance 10002" x="2915" y="0" width="441" height="589" frameX="-5" frameY="0" frameWidth="446" frameHeight="589"/>
+	<SubTexture name="J_Blushing_Talk instance 10003" x="2915" y="0" width="441" height="589" frameX="-5" frameY="0" frameWidth="446" frameHeight="589"/>
+	<SubTexture name="J_Blushing_Talk instance 10004" x="3406" y="0" width="442" height="571" frameX="0" frameY="-7" frameWidth="446" frameHeight="589"/>
+	<SubTexture name="J_Blushing_Talk instance 10005" x="3406" y="0" width="442" height="571" frameX="0" frameY="-7" frameWidth="446" frameHeight="589"/>
+	<SubTexture name="J_Flushed instance 10000" x="0" y="639" width="434" height="571"/>
+	<SubTexture name="J_Flushed instance 10001" x="0" y="639" width="434" height="571"/>
+	<SubTexture name="J_Flushed instance 10002" x="0" y="639" width="434" height="571"/>
+	<SubTexture name="J_Flushed instance 10003" x="0" y="639" width="434" height="571"/>
+	<SubTexture name="J_Flushed_Talk instance 10000" x="484" y="639" width="432" height="555" frameX="-3" frameY="-11" frameWidth="446" frameHeight="589"/>
+	<SubTexture name="J_Flushed_Talk instance 10001" x="484" y="639" width="432" height="555" frameX="-3" frameY="-11" frameWidth="446" frameHeight="589"/>
+	<SubTexture name="J_Flushed_Talk instance 10002" x="966" y="639" width="441" height="589" frameX="-5" frameY="0" frameWidth="446" frameHeight="589"/>
+	<SubTexture name="J_Flushed_Talk instance 10003" x="966" y="639" width="441" height="589" frameX="-5" frameY="0" frameWidth="446" frameHeight="589"/>
+	<SubTexture name="J_Flushed_Talk instance 10004" x="1457" y="639" width="442" height="571" frameX="0" frameY="-7" frameWidth="446" frameHeight="589"/>
+	<SubTexture name="J_Flushed_Talk instance 10005" x="1457" y="639" width="442" height="571" frameX="0" frameY="-7" frameWidth="446" frameHeight="589"/>
+	<SubTexture name="J_Neutral instance 10000" x="1949" y="639" width="434" height="571"/>
+	<SubTexture name="J_Neutral instance 10001" x="1949" y="639" width="434" height="571"/>
+	<SubTexture name="J_Neutral instance 10002" x="1949" y="639" width="434" height="571"/>
+	<SubTexture name="J_Neutral instance 10003" x="1949" y="639" width="434" height="571"/>
+	<SubTexture name="J_Neutral_Talk instance 10000" x="2433" y="639" width="432" height="555" frameX="-3" frameY="-11" frameWidth="446" frameHeight="589"/>
+	<SubTexture name="J_Neutral_Talk instance 10001" x="2433" y="639" width="432" height="555" frameX="-3" frameY="-11" frameWidth="446" frameHeight="589"/>
+	<SubTexture name="J_Neutral_Talk instance 10002" x="2915" y="639" width="441" height="589" frameX="-5" frameY="0" frameWidth="446" frameHeight="589"/>
+	<SubTexture name="J_Neutral_Talk instance 10003" x="2915" y="639" width="441" height="589" frameX="-5" frameY="0" frameWidth="446" frameHeight="589"/>
+	<SubTexture name="J_Neutral_Talk instance 10004" x="3406" y="639" width="442" height="571" frameX="0" frameY="-7" frameWidth="446" frameHeight="589"/>
+	<SubTexture name="J_Neutral_Talk instance 10005" x="3406" y="639" width="442" height="571" frameX="0" frameY="-7" frameWidth="446" frameHeight="589"/>
+	<SubTexture name="J_Normal instance 10000" x="0" y="1278" width="434" height="571"/>
+	<SubTexture name="J_Normal instance 10001" x="0" y="1278" width="434" height="571"/>
+	<SubTexture name="J_Normal instance 10002" x="0" y="1278" width="434" height="571"/>
+	<SubTexture name="J_Normal instance 10003" x="0" y="1278" width="434" height="571"/>
+	<SubTexture name="J_Normal_Talk instance 10000" x="484" y="1278" width="432" height="555" frameX="-3" frameY="-11" frameWidth="446" frameHeight="589"/>
+	<SubTexture name="J_Normal_Talk instance 10001" x="484" y="1278" width="432" height="555" frameX="-3" frameY="-11" frameWidth="446" frameHeight="589"/>
+	<SubTexture name="J_Normal_Talk instance 10002" x="966" y="1278" width="441" height="589" frameX="-5" frameY="0" frameWidth="446" frameHeight="589"/>
+	<SubTexture name="J_Normal_Talk instance 10003" x="966" y="1278" width="441" height="589" frameX="-5" frameY="0" frameWidth="446" frameHeight="589"/>
+	<SubTexture name="J_Normal_Talk instance 10004" x="1457" y="1278" width="442" height="571" frameX="0" frameY="-7" frameWidth="446" frameHeight="589"/>
+	<SubTexture name="J_Normal_Talk instance 10005" x="1457" y="1278" width="442" height="571" frameX="0" frameY="-7" frameWidth="446" frameHeight="589"/>
+	<SubTexture name="J_Sad instance 10000" x="1949" y="1278" width="434" height="571"/>
+	<SubTexture name="J_Sad instance 10001" x="1949" y="1278" width="434" height="571"/>
+	<SubTexture name="J_Sad instance 10002" x="1949" y="1278" width="434" height="571"/>
+	<SubTexture name="J_Sad instance 10003" x="1949" y="1278" width="434" height="571"/>
+	<SubTexture name="J_Sad_Talk instance 10000" x="2433" y="1278" width="432" height="555" frameX="-3" frameY="-11" frameWidth="446" frameHeight="589"/>
+	<SubTexture name="J_Sad_Talk instance 10001" x="2433" y="1278" width="432" height="555" frameX="-3" frameY="-11" frameWidth="446" frameHeight="589"/>
+	<SubTexture name="J_Sad_Talk instance 10002" x="2915" y="1278" width="441" height="589" frameX="-5" frameY="0" frameWidth="446" frameHeight="589"/>
+	<SubTexture name="J_Sad_Talk instance 10003" x="2915" y="1278" width="441" height="589" frameX="-5" frameY="0" frameWidth="446" frameHeight="589"/>
+	<SubTexture name="J_Sad_Talk instance 10004" x="3406" y="1278" width="442" height="571" frameX="0" frameY="-7" frameWidth="446" frameHeight="589"/>
+	<SubTexture name="J_Sad_Talk instance 10005" x="3406" y="1278" width="442" height="571" frameX="0" frameY="-7" frameWidth="446" frameHeight="589"/>
+	<SubTexture name="J_Scared instance 10000" x="0" y="1917" width="434" height="571"/>
+	<SubTexture name="J_Scared instance 10001" x="0" y="1917" width="434" height="571"/>
+	<SubTexture name="J_Scared instance 10002" x="0" y="1917" width="434" height="571"/>
+	<SubTexture name="J_Scared instance 10003" x="0" y="1917" width="434" height="571"/>
+	<SubTexture name="J_Scared_Talk instance 10000" x="484" y="1917" width="432" height="555" frameX="-4" frameY="-11" frameWidth="447" frameHeight="589"/>
+	<SubTexture name="J_Scared_Talk instance 10001" x="484" y="1917" width="432" height="555" frameX="-4" frameY="-11" frameWidth="447" frameHeight="589"/>
+	<SubTexture name="J_Scared_Talk instance 10002" x="966" y="1917" width="441" height="589" frameX="-6" frameY="0" frameWidth="447" frameHeight="589"/>
+	<SubTexture name="J_Scared_Talk instance 10003" x="966" y="1917" width="441" height="589" frameX="-6" frameY="0" frameWidth="447" frameHeight="589"/>
+	<SubTexture name="J_Scared_Talk instance 10004" x="1457" y="1917" width="442" height="571" frameX="-1" frameY="-7" frameWidth="447" frameHeight="589"/>
+	<SubTexture name="J_Scared_Talk instance 10005" x="1457" y="1917" width="442" height="571" frameX="-1" frameY="-7" frameWidth="447" frameHeight="589"/>
+	<SubTexture name="J_Scared_Talk instance 10006" x="1949" y="1917" width="434" height="571" frameX="0" frameY="-6" frameWidth="447" frameHeight="589"/>
+	<SubTexture name="J_Scared_Talk instance 10007" x="1949" y="1917" width="434" height="571" frameX="0" frameY="-6" frameWidth="447" frameHeight="589"/>
+</TextureAtlas>

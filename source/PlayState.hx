@@ -1090,9 +1090,11 @@ class PlayState extends MusicBeatState
 					schoolIntro(doof);
 
 				case "out-of-stock":
-					startDialogue(dialogueJson);
+					startDialogue(dialogueJson,'OldTimey');
 				case "worked-up":
-					startDialogue(dialogueJson);
+					startDialogue(dialogueJson, 'lemmeAsk');
+				case "appreciate":
+					startDialogue(dialogueJson, 'MemoryLow');
 
 				default:
 					startCountdown();

@@ -2,17 +2,18 @@
 	"storyName": "Ramses Jackson!",
 	"hideFreeplay": false,
 	"weekBackground": "ramses",
+	"weekBefore": "tutorial",
 	"freeplayColor": [
 		146,
 		113,
 		253
 	],
-	"weekBefore": "tutorial",
 	"startUnlocked": true,
+	"hideStoryMode": false,
 	"weekCharacters": [
 		"ramses",
-		"bf",
-		""
+		"bf-ramses",
+		"gf-ramses"
 	],
 	"songs": [
 		[
@@ -25,6 +26,5 @@
 			]
 		]
 	],
-	"hideStoryMode": false,
 	"weekName": "Ramses"
 }
