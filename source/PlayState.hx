@@ -1240,6 +1240,9 @@ class PlayState extends MusicBeatState
 			bg.scrollFactor.set();
 			add(bg);
 
+			// vvv This function originally only starts the countdown, add an if statement to check if
+			// the song is ending, so it knows when to start the countdown OR to end the song
+			// after playing the cutscene!
 			(new FlxVideo(fileName)).finishCallback = function() {
 				remove(bg);
 				if (!endingSong)
@@ -3014,6 +3017,8 @@ class PlayState extends MusicBeatState
 		camFollowPos.setPosition(x, y);
 	}
 
+// This function starts the video cutscene of your choice, prevents it from pausing
+// and let's the game know you're in a cutscene
 function endSongCutscene(vidCut:String)
 	{
 		canPause = false;
@@ -3021,7 +3026,10 @@ function endSongCutscene(vidCut:String)
 		inCutscene = true;
 		videoIntro(vidCut);
 	}
-function endSongCutsceneClip()
+
+// This tells the game what specific clip you want part of that call back and it plays it
+// rn it's a unique function that is looking for the Ele cutscene, then it plays the endSongCutscene function!
+function eleendSongCutsceneClip() 
 	{
 		endSongCutscene("ClipIsSoOpen");
 	}
@@ -3031,9 +3039,11 @@ function endSongCutsceneClip()
 	{
 		var finishCallback:Void->Void = endSong; //In case you want to change it in a specific song.
 
+		//This block tells the game that, If playing Appeciate on Stroymode, 
+		// to play the cutscene as part of the finishCallback function!
 		if (isStoryMode && Paths.formatToSongPath(curSong) == "appreciate")
 			{
-				finishCallback = endSongCutsceneClip;
+				finishCallback = eleendSongCutsceneClip;
 			}
 
 		updateTime = false;
