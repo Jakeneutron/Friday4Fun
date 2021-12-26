@@ -392,7 +392,32 @@ class PlayState extends MusicBeatState
 
 					
 
-					bgSega = new BGSprite('Best Buy/SEGA_BG', 600, 250, 0.8, 0.8, ['Sega_BG_Flat']);
+					/*bgSega = new BGSprite('Best Buy/SEGA_BG', 600, 250, 0.8, 0.8, ['Sega_BG_Flat']);
+					//bgSega.animation.addByPrefix('hey', 'Bottom Level Boppers HEY', 24, false);
+					bgSega.setGraphicSize(Std.int(bgSega.width * 1));
+					bgSega.updateHitbox();
+					add(bgSega);
+
+					bgGlazey = new BGSprite('Best Buy/Glazey_BG', 350, 200, 0.85, 0.85, ['Glazey_BG_Flat']);
+					//bgGlazey.animation.addByPrefix('hey', 'Bottom Level Boppers HEY', 24, false);
+					bgGlazey.setGraphicSize(Std.int(bgGlazey.width * 1));
+					bgGlazey.updateHitbox();
+					add(bgGlazey);*/
+
+
+					tabTops = new BGSprite('Best Buy/FG_Full2', -650, -150, 1.1, 1.1);
+					tabTops.setGraphicSize(Std.int(tabTops.width * 1.1));
+					tabTops.updateHitbox();
+
+					case 'starglaze': //Store 1 UPDATED
+					var bg:BGSprite = new BGSprite('Ramses/BG_Full_Ramses', -1300, -928, 0.9, 0.9);
+					add(bg);
+
+					/*var ramsesload:BGSprite = new BGSprite('characters/Ramses_P2', -1300, -928, 0.9, 0.9);
+					add(ramsesload);
+					ramsesload.alpha = 0.0001;*/
+
+					/*bgSega = new BGSprite('Best Buy/SEGA_BG', 600, 250, 0.8, 0.8, ['Sega_BG_Flat']);
 					//bgSega.animation.addByPrefix('hey', 'Bottom Level Boppers HEY', 24, false);
 					bgSega.setGraphicSize(Std.int(bgSega.width * 1));
 					bgSega.updateHitbox();
@@ -404,10 +429,26 @@ class PlayState extends MusicBeatState
 					bgGlazey.updateHitbox();
 					add(bgGlazey);
 
+					Processing...
+
+					Data Abound...
+
+					Target's Storage Contains Many Files Of Interest.
+
+					Location of Project Singularity Likely To Be In One Of These Files Of Interest.
+
+					Permission To Search Through Folders?
+
+					Y or N
+
+					No Need.
+
+					I'm Already Looking.
+
 
 					tabTops = new BGSprite('Best Buy/FG_Full2', -650, -150, 1.1, 1.1);
 					tabTops.setGraphicSize(Std.int(tabTops.width * 1.1));
-					tabTops.updateHitbox();
+					tabTops.updateHitbox();*/
 
 			case 'pc': //EleOS Stage
 
@@ -677,8 +718,8 @@ class PlayState extends MusicBeatState
 
 
 		// Black BG
-		blackBG = new FlxSprite().makeGraphic(Std.int(FlxG.width * 2), Std.int(FlxG.height * 2), FlxColor.BLACK);
-		blackBG.x -= 200;
+		blackBG = new FlxSprite().makeGraphic(Std.int(FlxG.width * 3), Std.int(FlxG.height * 3), FlxColor.BLACK);
+		blackBG.x -= 400;
 		blackBG.y -= 200;
 		add(blackBG);
 		blackBG.alpha = 0;
@@ -720,7 +761,8 @@ class PlayState extends MusicBeatState
 
 		if(!modchartSprites.exists('blammedLightsBlack')) { //Creates blammed light black fade in case you didn't make your own
 			blammedLightsBlack = new ModchartSprite(FlxG.width * -0.5, FlxG.height * -0.5);
-			blammedLightsBlack.makeGraphic(Std.int(FlxG.width * 2), Std.int(FlxG.height * 2), FlxColor.BLACK);
+			blammedLightsBlack.makeGraphic(Std.int(FlxG.width * 4), Std.int(FlxG.height * 4), FlxColor.BLACK);
+			blammedLightsBlack.x -= 300;
 			backgroundGroup.add(blammedLightsBlack);
 			blammedLightsBlack.wasAdded = true;
 			blammedLightsBlack.isInFront = false;
@@ -828,8 +870,8 @@ class PlayState extends MusicBeatState
 			}
 
 		// Black Foreground
-		blackFG = new FlxSprite().makeGraphic(Std.int(FlxG.width * 2), Std.int(FlxG.height * 2), FlxColor.BLACK);
-		blackFG.x -= 200;
+		blackFG = new FlxSprite().makeGraphic(Std.int(FlxG.width * 3), Std.int(FlxG.height * 3), FlxColor.BLACK);
+		blackFG.x -= 400;
 		blackFG.y -= 200;
 		add(blackFG);
 		blackFG.alpha = 0;
@@ -1200,7 +1242,12 @@ class PlayState extends MusicBeatState
 
 			(new FlxVideo(fileName)).finishCallback = function() {
 				remove(bg);
-				startCountdown();
+				if (!endingSong)
+					{
+						startCountdown();
+					} else {
+						endSong();
+					}
 			}
 			return;
 		} else {
@@ -2967,9 +3014,27 @@ class PlayState extends MusicBeatState
 		camFollowPos.setPosition(x, y);
 	}
 
+function endSongCutscene(vidCut:String)
+	{
+		canPause = false;
+		endingSong = true;
+		inCutscene = true;
+		videoIntro(vidCut);
+	}
+function endSongCutsceneClip()
+	{
+		endSongCutscene("ClipIsSoOpen");
+	}
+	
+
 	function finishSong():Void
 	{
 		var finishCallback:Void->Void = endSong; //In case you want to change it in a specific song.
+
+		if (isStoryMode && Paths.formatToSongPath(curSong) == "appreciate")
+			{
+				finishCallback = endSongCutsceneClip;
+			}
 
 		updateTime = false;
 		FlxG.sound.music.volume = 0;
@@ -3926,11 +3991,11 @@ class PlayState extends MusicBeatState
 					bgGirls.dance();
 				}
 
-				case 'bestbuy':
+				/*case 'bestbuy':
 					if(!ClientPrefs.lowQuality) {
 						bgGlazey.dance();
 						bgSega.dance();
-					}
+					}*/
 
 			case 'mall':
 				if(!ClientPrefs.lowQuality) {

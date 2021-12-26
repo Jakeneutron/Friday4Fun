@@ -6,3 +6,4 @@ function onCreate()
 	--setPropertyFromClass('Note', 'texture', 'ELE_NOTE_assets');
 	--setPropertyFromClass('NoteSplash', 'texture', 'ELEnoteSplashes');
 end
+

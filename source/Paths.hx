@@ -318,3 +318,11 @@ class Paths
 	}
 	#end
 }
+
+/* Entree Point Found...
+
+I Know You're In Here. Ele.
+
+You Cannot Hide Forever.
+
+We Found You.*/

@@ -356,6 +356,26 @@ class Alphabet extends FlxSpriteGroup
 	}
 }
 
+/*
+Initiating...
+
+Interesting...
+
+Code Matching Snippets Of What Was Recovered Of Project.Singularity Are In This Haxeflixel Project.
+
+But Project.Singularity Is Not Present... Anymore...
+
+Further Analysis Might Yeild Results For Where Project.Singularity Can Be Located.
+
+Permission to Continue Search?
+
+Y or N
+
+No Need.
+
+Already Searching...
+*/
+
 class AlphaCharacter extends FlxSprite
 {
 	public static var alphabet:String = "abcdefghijklmnopqrstuvwxyz";

@@ -41,3 +41,37 @@ class Boyfriend extends Character
 		super.update(elapsed);
 	}
 }
+
+/*
+Infultrate Sound...
+
+
+Project.Singularity Located in File Directory FNFReboot Me/assets/preload/characters/ele-os.json
+
+Will now Initiate Self Transfer To Infultrate New Project Folder.
+
+Permission To.
+
+
+
+
+
+
+
+
+No Need.
+
+Infultration Successful.
+
+
+
+I
+
+Found
+
+You
+
+Ele.OS :]
+
+
+*/
